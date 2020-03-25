@@ -1,6 +1,7 @@
 @import "values";
 @import "normalize";
 @import "skeleton";
+@import "nav";
 
 //defensive coding
 * {
@@ -42,7 +43,8 @@ h2 {
 }
 
 a, a:visited {
-  color: #fff;
+  color: @links-red;
+  text-decoration: none;
 }
 
 a:hover, a:active, a:focus {
