@@ -36,3 +36,13 @@
  @highlight-blue: #b1cfd5;
  @links-red: #cd5b45;
  @background-color: #fff;
+
+ /*
+  * Mixins
+  */
+
+  .transition(@duration, @timing) {
+    -webkit-transition: @duration @timing;
+       -moz-transition: @duration @timing;
+            transition: @duration @timing;
+  }
