@@ -13,6 +13,9 @@
   vertical-align: top;
   padding-top: 3rem;
   padding-right: 1rem;
+  @media @mobile-above {
+    display: none;
+  }
 }
 
 #main-nav #main-links a,
@@ -22,4 +25,14 @@
   color: @brand-blue;
   display: inline-block;
   margin-right: 2rem;
+}
+
+@media @mobile {
+  #ps-logo {
+    width: 100%;
+  }
+
+  #ada-logo {
+    width: 100%;
+  }
 }
