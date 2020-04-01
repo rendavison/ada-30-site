@@ -14,7 +14,7 @@
   padding-top: 3rem;
   padding-right: 1rem;
   @media @mobile-above {
-    display: none;
+    padding-top: 1.5rem;
   }
 }
 
@@ -25,14 +25,37 @@
   color: @brand-blue;
   display: inline-block;
   margin-right: 2rem;
+  @media @mobile-above {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+  }
+}
+
+#mobile-nav {
+  display: none;
 }
 
 @media @mobile {
+  #main-nav #main-links {
+    display: none;
+  }
+
   #ps-logo {
-    width: 100%;
+    width: 40%;
+    display: inline-block;
+    margin: 1rem;
   }
 
   #ada-logo {
-    width: 100%;
+    display: none;
+  }
+
+  #mobile-nav {
+    display: inline-block;
+    float: right;
+    color: @brand-blue;
+    font-size: 2rem;
+    padding: 1.5rem 2rem 0 0;
+    cursor: pointer;
   }
 }

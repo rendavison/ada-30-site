@@ -10,14 +10,16 @@
 
 #intro #intro-desc {
   max-width: 60%;
+  @media @mobile {
+    max-width: 90%;
+  }
 }
 
 .index-headline {
   .mallory();
   color: #000;
-  font-size: 2.7rem;
+  font-size: 2.5rem;
   font-weight: 700;
-  /*border-bottom: .75rem solid @highlight-yellow;*/
   display: inline-block;
   padding-top: .5rem;
   line-height: 1.2;
@@ -42,7 +44,7 @@
   color: @links-red;
   font-size: 2rem;
   display: block;
-  padding-top: 1rem;
+  padding: 1rem 0 2rem 0;
 }
 
 .index-quote {
@@ -56,4 +58,7 @@
   width: 80%;
   text-align: center;
   margin: auto;
+  @media @mobile {
+    width: 95%;
+  }
 }
