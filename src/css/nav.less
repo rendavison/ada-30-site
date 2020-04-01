@@ -1,3 +1,4 @@
+/* DESKTOP AND TABLET STYLING */
 #main-nav {
   width: 100%;
 }
@@ -8,7 +9,7 @@
 }
 
 #main-nav #main-links {
-  display: block;
+  display: inline-block;
   float: right;
   vertical-align: top;
   padding-top: 3rem;
@@ -31,13 +32,48 @@
   }
 }
 
+#main-nav #main-links a:active {
+  color: @highlight-yellow;
+}
+
 #mobile-nav {
   display: none;
 }
 
+/*MOBILE STYLING*/
 @media @mobile {
+  #mobile-nav {
+    display: inline-block;
+    float: right;
+    color: @brand-blue;
+    font-size: 2rem;
+    padding: 1.5rem 2rem 0 0;
+    cursor: pointer;
+  }
+
   #main-nav #main-links {
+    background-color: @brand-blue;
+    position: absolute;
+    right: 0;
+    top: 4.5rem;
+    padding: 1rem .5rem;
+  }
+
+  #main-nav #main-links.hide {
     display: none;
+  }
+
+  #main-nav #main-links a,
+  #main-nav #main-links a:active {
+    margin: 0 1rem;
+    display: block;
+    text-align: center;
+    line-height: 1.8;
+    color: #fff;
+  }
+
+  #main-nav #main-links a:active {
+    color: @highlight-yellow;
   }
 
   #ps-logo {
@@ -48,14 +84,5 @@
 
   #ada-logo {
     display: none;
-  }
-
-  #mobile-nav {
-    display: inline-block;
-    float: right;
-    color: @brand-blue;
-    font-size: 2rem;
-    padding: 1.5rem 2rem 0 0;
-    cursor: pointer;
   }
 }
