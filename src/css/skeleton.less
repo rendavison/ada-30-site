@@ -42,10 +42,12 @@
   box-sizing: border-box; }
 
 /* For devices larger than 400px */
-@media (min-width: 400px) {
+@media (min-width: 300px) {
   .container {
-    width: 85%;
-    padding: 0; }
+    width: 100%;
+    padding: 0 1rem;
+    overflow-x: hidden;
+  }
 }
 
 /* For devices larger than 550px */
@@ -361,7 +363,8 @@ form {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .u-full-width {
   width: 100%;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 .u-max-full-width {
   max-width: 100%;
   box-sizing: border-box; }

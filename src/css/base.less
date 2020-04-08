@@ -39,7 +39,7 @@ h1 {
   border-bottom: 1rem solid @highlight-yellow;
   display: inline-block;
   @media @mobile {
-    font-size: 5rem;
+    font-size: 3.75rem;
   }
 }
 
@@ -49,7 +49,7 @@ h2 {
   color: #000;
   line-height: 1.5;
   @media @mobile {
-    font-size: 3.66rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -62,56 +62,7 @@ a:hover, a:active, a:focus {
   color: #fff;
 }
 
-/* NPR standard partials */
-
-footer {
-  background: black;
-  color: white;
-  padding: 40px 20px;
-  position: relative;
-  z-index: 999;
-  justify-content: flex-start;
-
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-  }
-
-  .constrained {
-    max-width: 700px;
-    margin: auto;
-  }
-
-  .npr {
-    margin-top: 44px;
-
-    a, a:visited {
-      color: white;
-      text-decoration: none;
-
-      &:hover, &:focus {
-        color: #888;
-      }
-    }
-
-    ul {
-      border-top: 1px solid #333;
-      color: #888;
-      font-size: 0.8rem;
-      padding-top: 11px;
-
-      li {
-        display: inline-block;
-        margin: 0 22px 3px 0;
-        padding: 0;
-        text-indent: 0;
-        white-space: nowrap;
-
-        @media @mobile-above {
-          display: inline-block;
-        }
-      }
-    }
-  }
+img:not([alt]) {
+  outline: 3px solid red;
+  display: block;
 }
