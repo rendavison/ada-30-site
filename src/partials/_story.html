@@ -1,0 +1,34 @@
+<main class="container">
+
+  <% story.sections.forEach(function(section, i) { %>
+
+  <!-- Story text -->
+  <% if(section.type == "text"){ %>
+    <%= t.renderMarkdown(story.sections[i].value) %>
+
+  <!-- Subhed -->
+  <% }else if(section.type == "subhed"){ %>
+    <h2 class="subhed">
+      <%= section.value.text %>
+    </h2>
+
+  <% }else if(section.type == "pullquote"){ %>
+    <h3 class="type-it-pullquote">
+      <%= section.value.text %>
+    </h3>
+
+  <!-- Inline image -->
+  <% }else if(section.type == "inline-img"){ %>
+    <img class="inline-img" alt="<%= section.value.alt %>" src="<%= section.value.img %>" />
+    <div class="caption">
+      <p><%= section.value.caption %></p>
+    </div>
+
+  <% }else if(section.type == "cta-box"){ %>
+    <div class="cta-box">
+      <em><%= section.value.text %></em>
+    </div>
+
+  <% } %>
+  <% }); %>
+</main>
