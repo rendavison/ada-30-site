@@ -1,2 +1,31 @@
-main.container p {
+main {
+  overflow-x: hidden;
+}
+
+main.story-text {
+  margin: 2rem 22%;
+}
+
+.story-pullquote,
+.story-interjection {
+  .futura();
+  padding: 2rem 3rem;
+  box-sizing: border-box;
+  font-size: 5rem;
+  line-height: 1.2;
+  width: 126%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.story-pullquote {
+  background-color: @highlight-blue;
+  text-align: right;
+}
+
+/*this is causing problems*/
+.story-interjection {
+  background-color: @highlight-yellow;
+  z-index: 99999;
+  margin-left: -20%;
 }

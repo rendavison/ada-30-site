@@ -1,34 +1,44 @@
-<main class="container">
+<main class="container story-text" style="overflow-x: hidden;">
+  <div class="></div>
+    <div class="eight columns">
 
-  <% story.sections.forEach(function(section, i) { %>
+      <% story.sections.forEach(function(section, i) { %>
 
-  <!-- Story text -->
-  <% if(section.type == "text"){ %>
-    <%= t.renderMarkdown(story.sections[i].value) %>
+      <!-- Story text -->
+      <% if(section.type == "text"){ %>
+        <%= t.renderMarkdown(story.sections[i].value) %>
 
-  <!-- Subhed -->
-  <% }else if(section.type == "subhed"){ %>
-    <h2 class="subhed">
-      <%= section.value.text %>
-    </h2>
+      <!-- Subhed -->
+      <% }else if(section.type == "subhed"){ %>
+        <h2 class="subhed">
+          <%= section.value.text %>
+        </h2>
 
-  <% }else if(section.type == "pullquote"){ %>
-    <h3 class="type-it-pullquote">
-      <%= section.value.text %>
-    </h3>
+      <!-- Pullquote -->
+      <% }else if(section.type == "pullquote"){ %>
+        <h2 class="column offset-by-one story-pullquote">
+          <%= section.value.text %>
+        </h2>
 
-  <!-- Inline image -->
-  <% }else if(section.type == "inline-img"){ %>
-    <img class="inline-img" alt="<%= section.value.alt %>" src="<%= section.value.img %>" />
-    <div class="caption">
-      <p><%= section.value.caption %></p>
+      <!-- Interjection -->
+      <% }else if(section.type == "interjection"){ %>
+        <div class="story-interjection">
+          <%= section.value.text %>
+        </div>
+
+      <!-- Inline image -->
+      <% }else if(section.type == "inline-img"){ %>
+        <img class="inline-img" alt="<%= section.value.alt %>" src="<%= section.value.img %>" />
+        <div class="caption">
+          <p><%= section.value.caption %></p>
+        </div>
+
+      <% }else if(section.type == "cta-box"){ %>
+        <div class="cta-box">
+          <em><%= section.value.text %></em>
+        </div>
+
+      <% } %>
+      <% }); %>
     </div>
-
-  <% }else if(section.type == "cta-box"){ %>
-    <div class="cta-box">
-      <em><%= section.value.text %></em>
-    </div>
-
-  <% } %>
-  <% }); %>
 </main>
