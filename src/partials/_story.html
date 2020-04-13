@@ -1,44 +1,42 @@
-<main class="container story-text" style="overflow-x: hidden;">
-  <div class="></div>
-    <div class="eight columns">
+<main>
+  <% story.sections.forEach(function(section, i) { %>
 
-      <% story.sections.forEach(function(section, i) { %>
-
-      <!-- Story text -->
-      <% if(section.type == "text"){ %>
-        <%= t.renderMarkdown(story.sections[i].value) %>
-
-      <!-- Subhed -->
-      <% }else if(section.type == "subhed"){ %>
-        <h2 class="subhed">
-          <%= section.value.text %>
-        </h2>
-
-      <!-- Pullquote -->
-      <% }else if(section.type == "pullquote"){ %>
-        <h2 class="column offset-by-one story-pullquote">
-          <%= section.value.text %>
-        </h2>
-
-      <!-- Interjection -->
-      <% }else if(section.type == "interjection"){ %>
-        <div class="story-interjection">
-          <%= section.value.text %>
-        </div>
-
-      <!-- Inline image -->
-      <% }else if(section.type == "inline-img"){ %>
-        <img class="inline-img" alt="<%= section.value.alt %>" src="<%= section.value.img %>" />
-        <div class="caption">
-          <p><%= section.value.caption %></p>
-        </div>
-
-      <% }else if(section.type == "cta-box"){ %>
-        <div class="cta-box">
-          <em><%= section.value.text %></em>
-        </div>
-
-      <% } %>
-      <% }); %>
+  <!-- Story text -->
+  <% if(section.type == "text"){ %>
+    <div class="story-text">
+      <%= t.renderMarkdown(story.sections[i].value) %>
     </div>
+
+  <!-- Subhed -->
+  <% }else if(section.type == "subhed"){ %>
+    <h2 class="subhed">
+      <%= section.value.text %>
+    </h2>
+
+  <!-- Pullquote -->
+  <% }else if(section.type == "pullquote"){ %>
+    <h2 class="story-pullquote">
+      <%= section.value.text %>
+    </h2>
+
+  <!-- Interjection -->
+  <% }else if(section.type == "interjection"){ %>
+    <div class="story-interjection">
+      <%= section.value.text %>
+    </div>
+
+  <!-- Inline image -->
+  <% }else if(section.type == "inline-img"){ %>
+    <img class="inline-img" alt="<%= section.value.alt %>" src="<%= section.value.img %>" />
+    <div class="caption">
+      <p><%= section.value.caption %></p>
+    </div>
+
+  <% }else if(section.type == "cta-box"){ %>
+    <div class="cta-box">
+      <em><%= section.value.text %></em>
+    </div>
+
+  <% } %>
+  <% }); %>
 </main>
