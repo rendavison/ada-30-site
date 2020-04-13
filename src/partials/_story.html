@@ -21,15 +21,15 @@
 
   <!-- Interjection -->
   <% }else if(section.type == "interjection"){ %>
-    <div class="story-interjection">
+    <h2 class="story-interjection">
       <%= section.value.text %>
-    </div>
+    </h2>
 
   <!-- Inline image -->
   <% }else if(section.type == "inline-img"){ %>
     <img class="inline-img" alt="<%= section.value.alt %>" src="<%= section.value.img %>" />
-    <div class="caption">
-      <p><%= section.value.caption %></p>
+    <div class="story-caption">
+      <p align="center"><%= section.value.caption %></p>
     </div>
 
   <% }else if(section.type == "cta-box"){ %>
