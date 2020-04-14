@@ -25,6 +25,12 @@
       <%= section.value.text %>
     </h2>
 
+  <!-- Definition -->
+  <% }else if(section.type == "definition"){ %>
+    <span class="story-definition">
+      <%= section.value.text %>
+    </span>
+
   <!-- Inline image -->
   <% }else if(section.type == "inline-img"){ %>
     <img class="inline-img" alt="<%= section.value.alt %>" src="<%= section.value.img %>" />
