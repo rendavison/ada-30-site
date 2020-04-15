@@ -1,5 +1,5 @@
 #story-intro {
-  margin: 3rem auto;
+  margin: 5rem auto;
 }
 
 #story-date {
@@ -8,13 +8,26 @@
 }
 
 h1#story-headline {
-  font-size: 8rem;
+  font-size: 7.5rem;
   margin: 2rem 0;
+  @media @mobile {
+    font-size: 4rem;
+  }
 }
 
 #story-byline {
   .mallory();
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: @links-red;
   font-weight: bold;
+  @media @mobile {
+    font-size: 2.5rem;
+  }
+}
+
+#lead-image {
+  margin-bottom: 3rem;
+  @media @mobile {
+    margin-bottom: 1rem;
+  }
 }

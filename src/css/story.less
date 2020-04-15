@@ -1,7 +1,10 @@
 .story-text {
   overflow-x: hidden;
-  width: 65.3333333333%;
+  width: 56.6666666667%;
   margin: auto;
+  @media @mobile {
+    width: 90%;
+  }
 }
 
 .story-text .highlight {
@@ -16,34 +19,42 @@
   .futura();
   padding: 2rem 3rem;
   box-sizing: border-box;
-  font-size: 4.5rem;
+  font-size: 4rem;
   line-height: 1.2;
-  width: 74%;
+  width: 56.6666666667%;
   margin-top: 1rem;
   margin-bottom: 3rem;
+  @media @mobile {
+    width: 90%;
+    font-size: 3.5rem;
+    padding: 2rem;
+  }
 }
 
 .story-pullquote {
   background-color: @highlight-blue;
-  text-align: right;
-  margin-left: 26%;
+  margin-left: 39.3333333333%;
+  @media @mobile {
+    margin: 0 5% 2rem 5%;
+  }
 }
 
 .story-interjection {
-  background-color: @highlight-yellow;
+  background-color: #fff;
+  border: 1rem solid @highlight-blue;
+  box-sizing: border-box;
   z-index: 99999;
-  margin-left: 0%;
-  width: 74%;
+  margin-left: 4.66666666667%;
 }
 
 .story-definition {
   background: @highlight-yellow;
-  display: inline;
+  position: relative;
+  display: inline-flex;
   box-sizing: border-box;
   color: #fff;
   font-weight: 600;
-  width: 30.6666666667%;
-  float: right;
+  width: 20%;
   padding: 1rem;
   margin: 0;
 }
@@ -51,6 +62,10 @@
 .inline-img {
   width: 95%;
   margin: 1rem 2.5%;
+  @media @mobile {
+    width: 100%;
+    margin: 0;
+  }
 }
 
 .story-caption {
