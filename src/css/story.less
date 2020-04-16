@@ -1,5 +1,5 @@
 .story-text {
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
   width: 56.6666666667%;
   margin: auto;
   @media @mobile {
@@ -50,13 +50,15 @@
 .story-definition {
   background: @highlight-yellow;
   position: relative;
-  display: inline-flex;
+  float: right;
   box-sizing: border-box;
   color: #fff;
   font-weight: 600;
   width: 20%;
   padding: 1rem;
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .inline-img {
