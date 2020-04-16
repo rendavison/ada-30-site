@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <!-- imports all header info -->
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+
+    <!-- imports main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <!-- imports global header -->
+    <%= t.include("partials/_main-nav.html") %>
+
+    <!-- BEGIN STORY GRID CONTENT -->
+
+    <main class="container" id="story-grid">
+
+      <div class="spacer"></div>
+
+      <!-- begin intro text -->
+      <center id="intro">
+        <h1>All Stories</h1>
+      </center>
+
+      <div class="spacer"></div>
+
+      <!-- BEGIN STORIES -->
+      <!-- row 1 -->
+      <div class="row">
+        <article class="three columns">
+          <a href="test_page.html">
+              <img src="https://picsum.photos/550/706" />
+            <div class="index-headline">Personal Essay that someone wrote for us</div>
+            <div class="index-headline-border"></div>
+          </a>
+            <div class="index-byline">Essayist & Jorna List</div>
+        </article>
+        <article class="one-half column">
+          <a href="/">
+            <img src="https://picsum.photos/1200/720" />
+            <div class="index-headline">Video Title</div>
+            <div class="index-headline-border" style="width:25%"></div>
+          </a>
+        </article>
+        <article class="three columns">
+          <a href="test_page.html">
+              <img src="https://picsum.photos/550/706" />
+            <div class="index-headline">Personal Essay that someone wrote for us</div>
+            <div class="index-headline-border"></div>
+          </a>
+            <div class="index-byline">Essayist & Jorna List</div>
+        </article>
+      </div>
+
+      <div class="spacer"></div>
+
+      <!-- row 2 -->
+      <div class="row">
+        <article class="one-third column">
+          <a href="/">
+              <img src="https://picsum.photos/550/400" />
+            <div class="index-headline">Story Headline</div>
+            <div class="index-headline-border"></div>
+          </a>
+            <div class="index-byline">Journa List</div>
+        </article>
+        <article class="one-third column">
+          <a href="/">
+            <img src="https://picsum.photos/550/400" />
+            <div class="index-headline">Story Headline that someone made very
+              long because we have to account for that</div>
+            <div class="index-headline-border"></div>
+          </a>
+            <div class="index-byline">Journa List</div>
+        </article>
+        <article class="one-third column">
+          <a href="/">
+            <img src="https://picsum.photos/550/400" />
+            <div class="index-headline">Story Headline of a reasonable length</div>
+            <div class="index-headline-border"></div>
+          </a>
+            <div class="index-byline">Journa List</div>
+        </article>
+      </div>
+
+    <!-- first blue quote box
+    <aside class="ui-full-width">
+      <div class="index-quote">
+          <h2 class="index-quote-text">
+            “This is a quote from one of our pieces, or something that
+            provides additional context for the impact of the ADA.”
+          </h2>
+      </div>
+    </aside> -->
+
+    <div class="spacer"></div>
+
+      <!-- row 3 -->
+      <!-- row 4 -->
+      <div class="row">
+        <article class="one-half column">
+          <a href="/">
+            <img src="https://picsum.photos/1200/720" />
+            <div class="index-headline">Video Title</div>
+            <div class="index-headline-border" style="width:25%"></div>
+          </a>
+        </article>
+        <article class="three columns">
+          <a href="/">
+            <img src="https://picsum.photos/550/400" />
+            <div class="index-headline">Story Headline that someone made very
+              long because we have to account for that</div>
+            <div class="index-headline-border"></div>
+          </a>
+            <div class="index-byline">Journa List</div>
+        </article>
+        <article class="three columns">
+          <a href="/">
+            <img src="https://picsum.photos/550/400" />
+            <div class="index-headline">Story Headline that someone made very
+              long because we have to account for that</div>
+            <div class="index-headline-border"></div>
+          </a>
+            <div class="index-byline">Journa List</div>
+        </article>
+      </div>
+
+      <div class="spacer"></div>
+
+      <!-- row 4 -->
+      <div class="row">
+        <article class="one-third column">
+          <a href="test_page.html">
+              <img src="https://picsum.photos/550/706" />
+            <div class="index-headline">Personal Essay that someone wrote for us</div>
+            <div class="index-headline-border"></div>
+          </a>
+            <div class="index-byline">Essayist & Jorna List</div>
+        </article>
+        <article class="one-third column">
+          <a href="test_page.html">
+              <img src="https://picsum.photos/550/706" />
+            <div class="index-headline">Personal Essay that someone wrote for us</div>
+            <div class="index-headline-border"></div>
+          </a>
+            <div class="index-byline">Essayist & Jorna List</div>
+        </article>
+        <article class="one-third column">
+          <a href="test_page.html">
+              <img src="https://picsum.photos/550/706" />
+            <div class="index-headline">Personal Essay that someone wrote for us</div>
+            <div class="index-headline-border"></div>
+          </a>
+            <div class="index-byline">Essayist & Jorna List</div>
+        </article>
+      </div>
+    </main>
+    <!-- END STORIES -->
+
+    <div class="spacer"></div>
+    <!-- END STORY GRID CONTENT -->
+
+    <script src="app.js" async></script>
+    <%= t.include("partials/_analytics.html") %>
+    <script data-account="ZEQU4bRA7Q" src="https://cdn.userway.org/widget.js"></script>
+  </body>
+</html>
