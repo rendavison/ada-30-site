@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <!-- imports all header info -->
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+
+    <!-- imports main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <!-- imports global header -->
+    <%= t.include("partials/_main-nav.html") %>
+
+    <!-- START ABOUT CONTENT -->
+    <main class="container" id="about-page">
+      <div class="row">
+        <div class="eight columns offset-by-two">
+          <h1>About the ADA</h1>
+        </div>
+        <div class="six columns offset-by-three about-text">
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+          tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+          consequat.</p>
+
+          <p>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+          ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+          tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+          consequat.</p>
+        </div>
+
+        <div class="eight columns offset-by-two">
+          <h1>Notes on Accessibility</h1>
+        </div>
+        <div class="six columns offset-by-three about-text">
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+          tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+          consequat.</p>
+
+          <p>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+          ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+          tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+          consequat.</p>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <!-- <%= t.include("partials/_footer.html") %>-->
+
+    <script src="app.js" async></script>
+    <%= t.include("partials/_analytics.html") %>
+
+  </body>
+</html>
