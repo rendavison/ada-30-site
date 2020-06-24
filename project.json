@@ -28,10 +28,11 @@
     "11-dcYP35Xa_NPu4LmN9YwSj7KnjLyCM7nAxUipqPl2Y",
     "1R6xEusHRJR7m57pXF1pjjRh54kroS84dQE3Tj_wvCb4"
   ],
-  "docs": [
-    "13FLhqJu_u-E-XVQqqyAZ6hy3S0g2xcdpgWQHdAH7Ghw",
-    "1gpBPyVM5GtwsLXlXvenFf3cBrHJvHJ7vkgrfzxeBjzM"
-  ],
+  "docs": {
+    "storyTemplate": "13FLhqJu_u-E-XVQqqyAZ6hy3S0g2xcdpgWQHdAH7Ghw",
+    "placesOfWorship": "1gpBPyVM5GtwsLXlXvenFf3cBrHJvHJ7vkgrfzxeBjzM",
+    "digitalAge": "1cnk7w-5hVYDevb3lOyzL3xcRRPe9veyLuADzI8_m2o8"
+  },
   "embedded": true,
   "production": false
 }
