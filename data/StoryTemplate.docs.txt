@@ -26,7 +26,10 @@ Over the past six months, PublicSource spoke to people throughout Allegheny Coun
 One 33-year-old woman from South Side is slowly paying off four traffic tickets from 2009. She estimates she still owes $1,100.
 
 A 46-year-old man who lives in the East End said he owes more than $20,000 in fines and fees related to low-level drug offenses. He is in long-term recovery and is working toward a degree in social work. His last arrest was in 2014.
-A 20-year-old University of Pittsburgh student had a warrant issued for his arrest after he ignored an August 2019 citation for driving a friend’s car that didn’t have valid registration or inspection. He is now on a monthly payment plan to settle the $250 charge.
+
+{.interjection}
+text: A 20-year-old University of Pittsburgh student had a warrant issued for his arrest after he ignored an August 2019 citation for driving a friend’s car that didn’t have valid registration or inspection. He is now on a monthly payment plan to settle the $250 charge.
+{}
 
 Evans Moore, a Pittsburgh-based organizer for the criminal justice reform organization Families Against Mandatory Minimums [FAMM], said situations where people cannot pay their court debt are too common. “Folks’ lives are being stymied because they can’t pay their fines and fees,” he said. “You get caught in this never-ending cycle of the criminal justice system.”
 
