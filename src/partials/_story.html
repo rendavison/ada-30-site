@@ -27,17 +27,20 @@
 
   <!-- Definition -->
   <% }else if(section.type == "definition"){ %>
-    <div class="ui-pull-right">
       <div class="story-definition">
         <%= section.value.text %>
       </div>
-    </div>
 
   <!-- Inline image -->
   <% }else if(section.type == "inline-img"){ %>
     <img class="inline-img" alt="<%= section.value.alt %>" src="<%= section.value.img %>" />
     <div class="story-caption">
       <p align="center"><%= section.value.caption %></p>
+    </div>
+
+  <% }else if(section.type == "cta-box"){ %>
+    <div class="cta-box">
+      <em><%= section.value.text %></em>
     </div>
 
   <% } %>

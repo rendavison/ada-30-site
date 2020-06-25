@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <!-- imports all header info -->
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+
+    <!-- imports main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <!-- imports global header -->
+    <%= t.include("partials/_main-nav.html") %>
+
+    <%= t.include("partials/_headline.html") %>
+
+    <%= t.include("partials/_story.html", {'story': archieml.digitalAge}) %>
+
+    <!-- Footer -->
+    <%= t.include("partials/_footer.html") %>
+
+    <script src="app.js" async></script>
+    <%= t.include("partials/_analytics.html") %>
+
+  </body>
+</html>
