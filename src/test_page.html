@@ -12,11 +12,9 @@
     <!-- imports global header -->
     <%= t.include("partials/_main-nav.html") %>
 
-    <main>
-      <%= t.include("partials/_headline.html") %>
+    <%= t.include("partials/_headline.html") %>
 
-      <%= t.include("partials/_story.html", {'story': archieml.StoryTemplate}) %>
-    </main>
+    <%= t.include("partials/_story.html", {'story': archieml.StoryTemplate}) %>
 
     <!-- Footer -->
     <%= t.include("partials/_footer.html") %>

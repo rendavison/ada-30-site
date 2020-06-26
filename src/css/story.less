@@ -1,8 +1,9 @@
 .story-text {
   width: 48%;
   margin-left: 26%;
-  @media @mobile {
+  @media @mobile-above {
     width: 90%;
+    margin-left: 5%;
   }
 }
 
@@ -13,37 +14,53 @@
   letter-spacing: 0.25px;
 }
 
+#subhead {
+  margin-left: 26%;
+  margin-top: 5rem;
+  width: 48%;
+  @media @mobile-above {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
 .story-pullquote,
 .story-interjection {
   .futura();
-  padding: 2rem 3rem;
+  padding: 3.5rem 1rem;
   box-sizing: border-box;
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 1.2;
   margin-top: 1rem;
   margin-bottom: 3rem;
   text-align: left;
-  @media @mobile {
+  width: 48%;
+  @media @mobile-above {
     width: 90%;
-    font-size: 3.5rem;
+    font-size: 3rem;
     padding: 2rem;
   }
 }
 
 .story-pullquote {
-  background-color: @highlight-blue;
+  border-top: .5rem solid @highlight-blue;
+  border-bottom: .5rem solid @highlight-blue;
   margin-left: 39.3333333333%;
-  @media @mobile {
-    margin: 0 5% 2rem 5%;
+  @media @mobile-above {
+    margin: 5rem 0 5rem 5%;
   }
 }
 
 .story-interjection {
-  background-color: #fff;
-  border: 1rem solid @highlight-blue;
+  border-top: .5rem solid @highlight-yellow;
+  border-bottom: .5rem solid @highlight-yellow;
   box-sizing: border-box;
   z-index: 99999;
+  margin-left: 8.66666666667%;
   margin-right: 26%;
+  @media @mobile-above {
+    margin: 5rem 0 5rem 5%;
+  }
 }
 
 .story-definition {
@@ -63,7 +80,7 @@
 .inline-img {
   width: 95%;
   margin: 1rem 2.5%;
-  @media @mobile {
+  @media @mobile-above {
     width: 100%;
     margin: 0;
   }
