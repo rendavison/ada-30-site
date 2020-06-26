@@ -12,7 +12,27 @@
     <!-- imports global header -->
     <%= t.include("partials/_main-nav.html") %>
 
-    <%= t.include("partials/_headline.html") %>
+    <!-- STORY INFO -->
+    <div class="container" id="story-intro" style="overflow-x: hidden;">
+      <div class="row">
+        <div id="story-date">
+            July 13, 2020
+        </div>
+      </div>
+      <div class="row">
+        <div class="ten columns">
+          <h1 id="story-headline">Voting Accessibilty</h1>
+        </div>
+      </div>
+      <div class="row">
+          <div id="story-byline">Matt Petras</div>
+      </div>
+    </div>
+
+    <!-- LEAD IMAGE -->
+    <div class="ui-full-width" id="lead-image">
+        <img src="https://picsum.photos/1500/720" />
+    </div>
 
     <%= t.include("partials/_story.html", {'story': archieml.voting}) %>
 
