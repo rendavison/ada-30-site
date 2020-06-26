@@ -1,9 +1,8 @@
 .story-text {
   width: 48%;
   margin-left: 26%;
-  @media @mobile-above {
+  @media @mobile {
     width: 90%;
-    margin-left: 5%;
   }
 }
 
@@ -14,52 +13,45 @@
   letter-spacing: 0.25px;
 }
 
-#subhead {
-  margin-left: 26%;
-  margin-top: 5rem;
-  width: 48%;
-  @media @mobile-above {
-    width: 90%;
-    margin-left: 5%;
-  }
-}
-
 .story-pullquote,
 .story-interjection {
   .futura();
-  padding: 3.5rem 1rem;
   box-sizing: border-box;
   font-size: 3rem;
-  line-height: 1.2;
-  margin-top: 1rem;
-  margin-bottom: 3rem;
+  line-height: 1.25;
+  margin: 3rem 0;
   text-align: left;
   width: 48%;
+  padding: 0 2rem;
   @media @mobile-above {
     width: 90%;
-    font-size: 3rem;
+    font-size: 3.5rem;
     padding: 2rem;
+    padding: 3.5rem 1rem;
   }
 }
 
 .story-pullquote {
-  border-top: .5rem solid @highlight-blue;
-  border-bottom: .5rem solid @highlight-blue;
+  border-left: 1rem solid @highlight-blue;
   margin-left: 39.3333333333%;
   @media @mobile-above {
     margin: 5rem 0 5rem 5%;
+    border-left: 0;
+    border-top: .5rem solid @highlight-blue;
+    border-bottom: .5rem solid @highlight-blue;
   }
 }
 
 .story-interjection {
-  border-top: .5rem solid @highlight-yellow;
-  border-bottom: .5rem solid @highlight-yellow;
+  border-left: 1rem solid @highlight-yellow;
   box-sizing: border-box;
   z-index: 99999;
-  margin-left: 8.66666666667%;
   margin-right: 26%;
   @media @mobile-above {
     margin: 5rem 0 5rem 5%;
+    border-left: 0;
+    border-top: .5rem solid @highlight-yellow;
+    border-bottom: .5rem solid @highlight-yellow;
   }
 }
 
@@ -80,7 +72,7 @@
 .inline-img {
   width: 95%;
   margin: 1rem 2.5%;
-  @media @mobile-above {
+  @media @mobile {
     width: 100%;
     margin: 0;
   }
