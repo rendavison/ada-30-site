@@ -12,7 +12,31 @@
     <!-- imports global header -->
     <%= t.include("partials/_main-nav.html") %>
 
-    <%= t.include("partials/_headline.html") %>
+    <!-- STORY INFO -->
+    <div class="container" id="story-intro" style="overflow-x: hidden;">
+      <div class="row">
+        <div id="story-date">
+            July 13, 2020
+        </div>
+      </div>
+      <div class="row">
+        <div class="ten columns">
+          <h1 id="story-headline">When will the Americans with Disabilities Act evolve to the digital age?</h1>
+        </div>
+      </div>
+      <div class="row">
+          <div id="story-byline">Catherine Getchell</div>
+      </div>
+    </div>
+
+    <!-- LEAD IMAGE -->
+    <div class="ui-full-width" id="lead-image">
+      <img src="/assets/img/catherine_1.jpg"
+      alt="Photograph of essay author Catherine Getchell and her guide dog in her backyard in Squirrel Hill">
+      <div id="lead-caption">
+        Catherine Getchell and her guide dog in her backyard in Squirrel Hill (Jay Manning/PublicSource)
+      </div>
+    </div>
 
     <%= t.include("partials/_story.html", {'story': archieml.digitalAge}) %>
 
