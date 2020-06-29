@@ -1,6 +1,17 @@
 /* DESKTOP AND TABLET STYLING */
 #main-nav {
   width: 100%;
+  vertical-align: middle;
+  max-height: 80px;
+}
+
+#ada-logo {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+#ada-logo img {
+  max-height: 50px;
 }
 
 #main-nav img {
@@ -13,9 +24,9 @@
 #main-nav #main-links {
   display: inline-block;
   float: right;
-  vertical-align: top;
+  vertical-align: baseline;
   position: absolute;
-  top: 2rem;
+  top: 2.5rem;
   right: 1rem;
   @media @mobile-above {
     top: 1.5rem;
@@ -51,7 +62,7 @@
     right: 0;
     color: @brand-blue;
     font-size: 2rem;
-    padding: 1.5rem 2rem 0 0;
+    padding: 2rem 2rem 0 0;
     cursor: pointer;
   }
 
@@ -81,13 +92,9 @@
     color: @highlight-yellow;
   }
 
-  #ps-logo {
+  #ada-logo {
     width: 70%;
     display: inline-block;
     margin: 1rem;
-  }
-
-  #ada-logo {
-    display: none;
   }
 }
