@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <%= t.include("partials/_analytics.html") %>
+    <!-- BEGIN TWITTER SUMMARY CARD -->
+     <meta name="twitter:card" content="summary_large_image">
+     <meta name="twitter:title" content="Support us | ADA at 30: Accessibility in Pittsburgh">
+     <meta name="twitter:site" content="@PublicSourcePA">
+     <meta name="twitter:url" content="https://adapittsburgh.com/support-us">
+     <meta name="twitter:image" content="https://adapittsburgh.com/assets/img/video_thumbnail.jpg">
+     <meta name="twitter:description" content="The Americans with Disabilities Act was signed into law on July 26, 1990. For this anniversary project, we set out to learn: How has the ADA changed life for Pittsburghers with disabilities? And what progress still needs to be made 30 years later? Here’s what we found out.">
+
+     <!-- Social sharing meta -->
+     <meta property="og:type" content="article">
+     <meta property="og:title" content="Support us">
+     <meta property="og:site_name" content="ADA at 30: Accessibility in Pittsburgh">
+     <meta property="og:url" content="https://adapittsburgh.com/support-us">
+     <meta property="og:image" content="https://adapittsburgh.com/assets/img/video_thumbnail.jpg">
+     <meta property="og:description" content="The Americans with Disabilities Act was signed into law on July 26, 1990. For this anniversary project, we set out to learn: How has the ADA changed life for Pittsburghers with disabilities? And what progress still needs to be made 30 years later? Here’s what we found out.">
+
+     <!-- imports all header info -->
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+
+    <title>Support Us | ADA at 30: Accessibility in Pittsburgh</title>
+  </head>
+
+  <body>
+    <!-- imports global header -->
+    <%= t.include("partials/_main-nav.html") %>
+
+    <!-- START SUPPORT US CONTENT -->
+    <main class="container" id="about-page"><a name="main-content" aria-hidden="true"></a>
+      <div class="row">
+        <div class="eight columns offset-by-two">
+          <h1>Support us</h1>
+        </div>
+        <section class="eight columns offset-by-two about-text">
+          <p>PublicSource and Unabridged Press partnered with each other as media
+            outlets and with several members of the Pittsburgh community to produce
+            this project. To learn more about our organizations and to support
+            journalistic partnerships like this, you can:</p>
+
+          <ul>
+            <li>
+              Subscribe to the
+              <a href="https://www.publicsource.org/newsletter-signup/?utm_source=ada&utm_medium=web&utm_campaign=support" target="_blank" aria-label="PublicSource newsletter (opens in a new tab)">PublicSource newsletter.</a>
+              PublicSource tells and shares stories rooted in voices,
+              facts & justice for civic-minded Pittsburgh-area residents.
+              <a href="https://checkout.fundjournalism.org/memberform?org_id=publicsource&campaign=7015x0000013EhxAAE" target="_blank" aria-label="Donate (opens in a new tab)">Donate</a>
+              to our member-supported nonprofit newsroom.
+            </li>
+            <li>
+              Subscribe to the
+              <a href="https://mailchi.mp/2d422cc36c11/unabridgedpress" target="_blank" aria-label="Unabridged Press newsletter (opens in a new tab)">Unabridged Press newsletter.</a>
+                Unabridged Press is a Pittsburgh-based website dedicated to
+                publishing primarily about disability issues in a variety of media formats.
+            </li>
+            <li>
+              The All-Abilities Media Project, a program connected to Unabridged Press,
+              is based at the Center for Media Innovation at Point Park University.
+              The All-Abilities Media Project supports the education of people with
+              disabilities in media work.
+              <a href="https://www.unabridgedpress.com/contribute/" target="_blank" aria-label="Learn how to donate to the project (opens in a new tab)">Learn how to donate to the project.</a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <%= t.include("partials/_footer.html") %>
+
+    <script src="app.js" async></script>
+    <%= t.include("partials/_analytics.html") %>
+    <%= t.include("partials/_userway.html") %>
+  </body>
+</html>

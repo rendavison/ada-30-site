@@ -1,49 +1,77 @@
-<main class="container">
+<main class="container"><a name="main-content" aria-hidden="true"></a>
   <% story.sections.forEach(function(section, i) { %>
 
   <!-- Story text -->
   <% if(section.type == "text"){ %>
-    <div class="story-text">
+    <div class="story-text"">
       <%= t.renderMarkdown(story.sections[i].value) %>
     </div>
 
   <!-- Subhed -->
   <% }else if(section.type == "subhed"){ %>
-    <h2 class="subhed offset-by-two columns" id="subhead">
+    <h3 class="subhed offset-by-two columns" id="subhead">
       <%= section.value.text %>
-    </h2>
+    </h3>
+    <div style="clear:both" aria-hidden="true"></div>
 
   <!-- Pullquote -->
   <% }else if(section.type == "pullquote"){ %>
-    <h2 class="story-pullquote">
+    <blockquote aria-label="pull quote">
+      <h3 class="story-pullquote">
       <%= section.value.text %>
-    </h2>
+    </h3></blockquote>
 
   <!-- Interjection -->
   <% }else if(section.type == "interjection"){ %>
-    <h2 class="story-interjection">
+    <h3 class="story-interjection">
       <%= section.value.text %>
-    </h2>
+    </h3>
+
+    <!-- Related -->
+    <% }else if(section.type == "related"){ %>
+      <div class="related-stories">
+        <h3>Related stories</h3>
+        <img class="related-icon" title="story icon" alt="<%= section.value.alt1 %>" src="<%= section.value.img1 %>" />
+        <h4><a href="<%= section.value.url1 %>" target="_blank" aria-label="<%= section.value.text1 %>"><%= section.value.text1 %></a></h4>
+        <div style="clear:both;margin-bottom: 1.5rem;" aria-hidden="true"></div>
+
+        <img class="related-icon" title="story icon" alt="<%= section.value.alt2 %>" src="<%= section.value.img2 %>" />
+        <h4><a href="<%= section.value.url2 %>" target="_blank" aria-label="<%= section.value.text2 %>"><%= section.value.text2 %></a></h4>
+        <div style="clear:both" aria-hidden="true"></div>
+      </div>
 
   <!-- Definition -->
   <% }else if(section.type == "definition"){ %>
-      <div class="story-definition">
-        <%= section.value.text %>
-      </div>
+    <div class="story-definition">
+    </div>
 
   <!-- Inline image -->
   <% }else if(section.type == "inline-img"){ %>
     <img class="inline-img" alt="<%= section.value.alt %>" src="<%= section.value.img %>" />
     <div class="story-caption">
-      <p align="center"><%= section.value.caption %></p>
+      <p><%= section.value.caption %></p>
     </div>
 
-  <% }else if(section.type == "cta-box"){ %>
-    <div class="cta-box">
-      <em><%= section.value.text %></em>
+  <!-- Vertical image -->
+  <% }else if(section.type == "vertical-inline-img"){ %>
+    <div class="vertical">
+      <img alt="<%= section.value.alt %>" src="<%= section.value.img %>" />
+      <div class="vertical-caption">
+        <p><%= section.value.caption %></p>
+      </div>
     </div>
+    <p class="vertical-float"><%= section.value.text %></p>
+    <div style="clear:both"></div>
+
+    <!-- Transcript -->
+    <% }else if(section.type == "transcript"){ %>
+      <div class="transcript">
+        <div class="speaker"><%= section.value.speaker %>:</div>
+        <div class="transcript-text"><%= section.value.text %></div>
+      </div>
+      <div style="clear:both" aria-hidden="true"></div>
 
   <% } %>
   <% }); %>
-  <div class="spacer"></div>
+  <div class="spacer" aria-hidden="true"></div>
 </main>

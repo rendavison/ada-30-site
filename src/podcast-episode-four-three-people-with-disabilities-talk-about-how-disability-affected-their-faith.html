@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <%= t.include("partials/_analytics.html") %>
+    <!-- BEGIN TWITTER SUMMARY CARD -->
+   <meta name="twitter:card" content="summary_large_image">
+   <meta name="twitter:title" content="Three people with disabilities talk about how disability affected their faith">
+   <meta name="twitter:site" content="@PublicSourcePA">
+   <meta name="twitter:url" content="https://adapittsburgh.com/podcast-episode-four-three-people-with-disabilities-talk-about-how-disability-affected-their-faith">
+   <meta name="twitter:image" content="https://adapittsburgh.com/assets/img/Kumar_Temple.jpg">
+   <meta name="twitter:description" content="Religious traditions can offer mixed messages about disability. Just like for all believers, images and words from spiritual communities can provide encouragement, purpose and belonging. But sometimes disability adds baggage — blame, confusion and exclusion.">
+
+   <!-- Social sharing meta -->
+   <meta property="og:type" content="article">
+   <meta property="og:title" content="Three people with disabilities talk about how disability affected their faith">
+   <meta property="og:site_name" content="ADA at 30: Accessibility in Pittsburgh">
+   <meta property="og:url" content="https://adapittsburgh.com/podcast-episode-four-three-people-with-disabilities-talk-about-how-disability-affected-their-faith">
+   <meta property="og:image" content="https://adapittsburgh.com/assets/img/Kumar_Temple.jpg">
+   <meta property="og:description" content="Religious traditions can offer mixed messages about disability. Just like for all believers, images and words from spiritual communities can provide encouragement, purpose and belonging. But sometimes disability adds baggage — blame, confusion and exclusion.">
+
+    <!-- imports all header info -->
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+    <title>Three people with disabilities talk about how disability affected their faith | ADA at 30: Accessibility in Pittsburgh</title>
+
+    <!-- imports main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <!-- imports global header -->
+    <%= t.include("partials/_main-nav.html") %>
+
+    <!-- STORY INFO -->
+    <section class="container" id="story-intro" style="overflow-x: hidden;">
+      <div class="row">
+        <div id="story-date">
+            July 17, 2020
+        </div>
+      </div>
+      <div class="row">
+        <div class="ten columns"><a name="main-content" aria-hidden="true"></a>
+          <h1 id="story-headline">Podcast episode 4: Three people with disabilities talk about how disability affected their faith</h1>
+        </div>
+      </div>
+      <!--  <div class="row">
+          <div id="story-byline">Josie, Unabridged Press</div>
+      </div>-->
+
+      <!-- PODCAST INFO -->
+      <section class="row" id="podcast-info">
+        <%= t.include("partials/_podcastFour.html") %>
+      </section>
+    </section>
+
+    <section>
+      <a name="transcript">
+        <center>
+          <h2 style="margin-bottom: 4rem;">Transcript</h2>
+        </center>
+      </a>
+    </section>
+
+    <%= t.include("partials/_story.html", {'story': archieml.podcastFour}) %>
+
+    <!-- Contact form -->
+    <section role="contact form" style="margin-top: 2rem;">
+      <div class="inline">
+        <%= t.include("partials/_preFooter.html") %>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <%= t.include("partials/_footer.html") %>
+
+    <script src="app.js" async></script>
+    <%= t.include("partials/_analytics.html") %>
+    <%= t.include("partials/_userway.html") %>
+  </body>
+</html>

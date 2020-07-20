@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <!-- imports all header info -->
+    <%= t.include("partials/_analytics.html") %>
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+
+    <title>ADA at 30: Accessibility in Pittsburgh</title>
+  </head>
+
+  <!-- BEGIN TWITTER SUMMARY CARD -->
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="twitter:title" content="ADA at 30: Accessibility in Pittsburgh">
+ <meta name="twitter:site" content="@PublicSourcePA">
+ <meta name="twitter:url" content="https://adapittsburgh.com/">
+ <meta name="twitter:image" content="https://adapittsburgh.com/assets/img/video_thumbnail.jpg">
+ <meta name="twitter:description" content="The Americans with Disabilities Act was signed into law on July 26, 1990. For this anniversary project, we set out to learn: How has the ADA changed life for Pittsburghers with disabilities? And what progress still needs to be made 30 years later? Here’s what we found out.">
+
+ <!-- Social sharing meta -->
+ <meta property="og:type" content="article">
+ <meta property="og:title" content="ADA at 30: Accessibility in Pittsburgh">
+ <meta property="og:site_name" content="ADA at 30: Accessibility in Pittsburgh">
+ <meta property="og:url" content="https://adapittsburgh.com/">
+ <meta property="og:image" content="https://adapittsburgh.com/assets/img/video_thumbnail.jpg">
+ <meta property="og:description" content="The Americans with Disabilities Act was signed into law on July 26, 1990. For this anniversary project, we set out to learn: How has the ADA changed life for Pittsburghers with disabilities? And what progress still needs to be made 30 years later? Here’s what we found out.">
+
+  <body>
+    <!-- imports global header -->
+    <%= t.include("partials/_main-nav.html") %>
+
+    <!-- BEGIN LANDING PAGE CONTENT -->
+
+    <!-- INTRO VIDEO -->
+    <section class="video-container" title="Introduction video" aria-label="Introduction video hosted on vimeo">
+      <div style="padding:52.71% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/435890220?texttrack=en&color=CD5B45&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen name="Introduction Video" title="Video: Faces of the law: The Americans with Disabilities Act read by those it protects"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    </section>
+
+    <main class="container">
+
+      <div class="spacer"></div>
+
+      <!-- begin intro text -->
+      <section class="row" title="Introduction text" aria-label="Introduction text">
+        <center id="intro" class="ten columns offset-by-one">
+          <h1>The Americans with Disabilities Act was signed into law on July 26, 1990.</h1>
+          <h3 id="intro-desc">
+            For this anniversary project, we set out to learn: How has the ADA changed life for Pittsburghers with disabilities? And what progress still needs to be made 30 years later? Here’s what we found out.
+          </h3>
+        </center>
+      </section>
+
+      <section class="row">
+        <div class="ten columns offset-by-one userway-callout">
+          <h3 class="userway-info">
+            Click the Accessibility Menu in the bottom right, or use your keyboard tab key, to customize text and contrast, listen to page content and find other accessibility features.
+          </h3>
+        </div>
+      </section>
+
+      <div class="spacer" style="clear:both;" aria-hidden="true"></div>
+
+      <%= t.include("partials/_latest-test.html") %>
+
+    </main>
+
+    <!-- first blue quote box -->
+    <aside class="ui-full-width">
+      <div class="index-quote">
+        <a href="despite-ada-exemption-pittsburgh-houses-of-worship-highlight-accessibility-efforts-and-shortfalls" target="_blank" aria-label="We haven’t honestly been to church in a year, between his changing needs and the pandemic. A lot of it, too, is finding a place where the whole family fits in, and that’s the hardest part. (opens in new tab)">
+          <h3 class="index-quote-text">
+            "We haven’t honestly been to church in a year, between his changing needs and the pandemic. A lot of it, too, is finding a place where the whole family fits in, and that’s the hardest part."
+          </h3>
+        </a>
+      </div>
+    </aside>
+    <div class="spacer" aria-hidden="true"></div>
+
+    <main class="container">
+
+      <!-- row 3 -->
+      <div class="row" style="margin: 0">
+        <%= t.include("partials/_preFooter.html") %>
+      </div>
+
+      <div class="spacer"></div>
+      <%= t.include("partials/_userway.html") %>
+    </main>
+    <!-- END STORIES -->
+    <!-- END LANDING PAGE CONTENT -->
+
+    <!-- Footer -->
+    <%= t.include("partials/_footer.html") %>
+
+    <script src="app.js" async></script>
+    <%= t.include("partials/_analytics.html") %>
+  </body>
+</html>

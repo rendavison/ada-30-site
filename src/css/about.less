@@ -4,8 +4,55 @@ main#about-page {
 
 main#about-page h1 {
   margin-top: 4rem;
+  @media @mobile {
+    margin-left: 2.5%;
+  }
 }
 
-.about-text {
-  margin: 2rem 0;
+.about-text,
+.podcast-page {
+  padding: 2rem 0;
+  box-sizing: border-box;
+  @media @mobile {
+    box-sizing: border-box;
+    padding: 2rem 1rem;
+  }
+}
+
+.podcast-page img {
+  float: left;
+  width: 33%;
+  @media @mobile-above {
+    float: none;
+    width: 100%;
+  }
+}
+
+.podcast-page h4 {
+  @media @mobile-above {
+    font-size: 2.5rem;
+  }
+}
+
+.podcast-page h4.desc {
+  float: left;
+  width: 64%;
+  margin-left: 2%;
+  @media @mobile-above {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+}
+
+.about-text ul {
+  list-style-type: disc;
+  list-style-position: outside;
+  width: 95%;
+  margin-left: 2.5%;
+  @media @mobile {
+    width: 90%;
+    margin-left: 5%;
+  }
 }

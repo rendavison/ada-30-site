@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <%= t.include("partials/_analytics.html") %>
+    <!-- BEGIN TWITTER SUMMARY CARD -->
+   <meta name="twitter:card" content="summary_large_image">
+   <meta name="twitter:title" content="It’s not easy being a Black man on the autism spectrum | ADA at 30: Accessibility in Pittsburgh">
+   <meta name="twitter:site" content="@PublicSourcePA">
+   <meta name="twitter:url" content="https://adapittsburgh.com/its-not-easy-being-a-black-man-on-the-autism-spectrum">
+   <meta name="twitter:image" content="https://adapittsburgh.com/assets/img/smith_1.jpg">
+   <meta name="twitter:description" content="A war is being raged in this country against discrimination and stigma. It has been waged for as long as I can remember, but people are still being shunned because of their different skill sets and the hues of their skin.">
+
+   <!-- Social sharing meta -->
+   <meta property="og:type" content="article">
+   <meta property="og:title" content="It’s not easy being a Black man on the autism spectrum">
+   <meta property="og:site_name" content="ADA at 30: Accessibility in Pittsburgh">
+   <meta property="og:url" content="https://adapittsburgh.com/its-not-easy-being-a-black-man-on-the-autism-spectrum">
+   <meta property="og:image" content="https://adapittsburgh.com/assets/img/smith_1.jpg">
+   <meta property="og:description" content="A war is being raged in this country against discrimination and stigma. It has been waged for as long as I can remember, but people are still being shunned because of their different skill sets and the hues of their skin.">
+    <!-- imports all header info -->
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+    <title>It’s not easy being a Black man on the autism spectrum | ADA at 30: Accessibility in Pittsburgh</title>
+
+  </head>
+
+  <body>
+    <!-- imports global header -->
+    <%= t.include("partials/_main-nav.html") %>
+
+    <!-- STORY INFO -->
+    <div class="container" id="story-intro" style="overflow-x: hidden;">
+      <div class="row">
+        <div id="story-date">
+            July 20, 2020
+        </div>
+      </div>
+      <div class="row">
+        <div class="ten columns">
+          <h1 id="story-headline">It’s not easy being a Black man on the autism spectrum</h1>
+        </div>
+      </div>
+      <div class="row">
+          <div id="story-byline">First-person essay by Joseph Vernon Smith</div>
+      </div>
+    </div>
+
+    <!-- LEAD IMAGE -->
+    <div class="ui-full-width" id="lead-image">
+      <img src="/assets/img/smith_1.jpg"
+      alt="Photograph of essay author Joseph Vernon Smith. He is a Black man standing with his arms crossed looking at the camera. He wears a face mask and a Giant Eagle staff t-shirt that says proud to be your neighbor.">
+      <div id="lead-caption">
+        Joseph Vernon Smith at his job bagging groceries at Giant Eagle in Crafton. (Photo by Jay Manning/PublicSource)
+      </div>
+    </div>
+
+    <%= t.include("partials/_story.html", {'story': archieml.vernonSmith}) %>
+
+    <!-- Contact form -->
+    <section role="contact form" style="margin-top: 2rem;">
+      <div class="inline">
+        <%= t.include("partials/_preFooter.html") %>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <%= t.include("partials/_footer.html") %>
+
+    <script src="app.js" async></script>
+    <%= t.include("partials/_analytics.html") %>
+    <%= t.include("partials/_userway.html") %>
+  </body>
+</html>

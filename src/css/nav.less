@@ -2,7 +2,8 @@
 #main-nav {
   width: 100%;
   vertical-align: middle;
-  max-height: 80px;
+  background-color: #fff;
+  z-index: 999999;
 }
 
 #ada-logo {
@@ -24,7 +25,6 @@
 #main-nav #main-links {
   display: inline-block;
   float: right;
-  vertical-align: baseline;
   position: absolute;
   top: 2.5rem;
   right: 1rem;
@@ -36,10 +36,10 @@
 #main-nav #main-links a,
 #main-nav #main-links a:active {
   .mallory();
-  font-size: 1.7rem;
-  color: @brand-blue;
+  font-size: 1.6rem;
+  color: @dark-blue;
   display: inline-block;
-  margin-right: 2rem;
+  margin-right: 1.75rem;
   @media @mobile-above {
     margin-right: 1rem;
     font-size: 1.5rem;
@@ -54,47 +54,69 @@
   display: none;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: 0.2s ease-in-out;
+}
+
+.nav-up {
+  top: -80px;
+  border: 0;
+  transition: 0.2s ease-in-out;
+}
+
+/*fixes the ka-chunk when the header isn't sticky anymore at the top*/
+.sticky + .container,
+.sticky + .video-container {
+  padding-top: 80px;
+}
+
 /*MOBILE STYLING*/
 @media @mobile {
   #mobile-nav {
     display: inline-block;
     position: absolute;
     right: 0;
-    color: @brand-blue;
+    color: @dark-blue;
     font-size: 2rem;
     padding: 2rem 2rem 0 0;
     cursor: pointer;
   }
 
   #main-nav #main-links {
-    background-color: @brand-blue;
+    background-color: @dark-blue;
     position: absolute;
     right: 0;
-    top: 4.5rem;
+    vertical-align: middle;
+    top: 5rem;
     padding: 1rem .5rem;
     display: none;
   }
 
   #main-nav #main-links.show {
     display: block;
+    z-index: 999999;
   }
 
   #main-nav #main-links a,
   #main-nav #main-links a:active {
     margin: 0 1rem;
     text-align: center;
-    line-height: 1.8;
+    line-height: 2;
     color: #fff;
     display: block;
   }
 
   #main-nav #main-links a:active {
-    color: @highlight-yellow;
+    color: @brand-blue;
   }
 
   #ada-logo {
     width: 70%;
     display: inline-block;
     margin: 1rem;
+    margin-top: 1.5rem;
   }
 }

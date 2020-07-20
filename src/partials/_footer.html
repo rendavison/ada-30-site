@@ -1,8 +1,13 @@
-<footer role="contentinfo">
-  <div class="footer" align="center">
-    <%= typeof content != "undefined" ? content : "" %>
-    <img src="https://ps-apps-assets.s3.amazonaws.com/power-of-place/logo.svg" />
-    <p style="margin-top: 1rem;">Lorem ipsum dolor sit amet<br />
-    consectetur adipiscing elit.</p>
-  </div>
+<footer role="contentinfo" class="footer" align="center">
+  <%= typeof content != "undefined" ? content : "" %>
+  <a href="https://publicsource.org/" target="_blank" aria-label="PublicSource website (opens in a new tab)">
+    <img src="../assets/img/ps-logo.svg" id="ps-logo" alt="Public Source logo" />
+  </a>
+  <a href="https://www.unabridgedpress.com/" target="_blank" aria-label="Unabridged Press website (opens in a new tab)">
+    <img src="../assets/img/UnPressLogoWhite.png" id="up-logo" alt="Unabridged Press logo"/>
+  </a>
+  <p style="margin-top: 1rem;">
+    Produced by PublicSource and Unabridged Press.<br />
+    This project has been made possible with the support of the FISA Foundation.
+  </p>
 </footer>

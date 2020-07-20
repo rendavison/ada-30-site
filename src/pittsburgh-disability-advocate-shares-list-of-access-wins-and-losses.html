@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <%= t.include("partials/_analytics.html") %>
+    <!-- BEGIN TWITTER SUMMARY CARD -->
+   <meta name="twitter:card" content="summary_large_image">
+   <meta name="twitter:title" content="A Pittsburgh disability advocate shares her list of access wins and losses | ADA at 30: Accessibility in Pittsburgh">
+   <meta name="twitter:site" content="@PublicSourcePA">
+   <meta name="twitter:url" content="https://adapittsburgh.com/pittsburgh-disability-advocate-shares-list-of-access-wins-and-losses">
+   <meta name="twitter:image" content="https://adapittsburgh.com/assets/img/IMG_8141.JPG">
+   <meta name="twitter:description" content="Alisa Grishman, founder of accessibility advocacy group Access Mob Pittsburgh, has partnered with PublicSource to document locations and features in the city that she has found to be accessible and inaccessible to people with disabilities.">
+
+   <!-- Social sharing meta -->
+   <meta property="og:type" content="article">
+   <meta property="og:title" content="A Pittsburgh disability advocate shares her list of access wins and losses">
+   <meta property="og:site_name" content="ADA at 30: Accessibility in Pittsburgh">
+   <meta property="og:url" content="https://adapittsburgh.com/pittsburgh-disability-advocate-shares-list-of-access-wins-and-losses">
+   <meta property="og:image" content="https://adapittsburgh.com/assets/img/IMG_8141.JPG">
+   <meta property="og:description" content="Alisa Grishman, founder of accessibility advocacy group Access Mob Pittsburgh, has partnered with PublicSource to document locations and features in the city that she has found to be accessible and inaccessible to people with disabilities.">
+    <!-- imports all header info -->
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+    <title>A Pittsburgh disability advocate shares her list of access wins and losses</title>
+
+  </head>
+
+  <body>
+    <!-- imports global header -->
+    <%= t.include("partials/_main-nav.html") %>
+
+    <!-- STORY INFO -->
+    <div class="container" id="story-intro" style="overflow-x: hidden;">
+      <div class="row">
+        <div id="story-date">
+            July 22, 2020
+        </div>
+      </div>
+      <div class="row">
+        <div class="ten columns">
+          <h1 id="story-headline">A Pittsburgh disability advocate shares her list of access wins and losses</h1>
+        </div>
+      </div>
+      <div class="row">
+          <div id="story-byline">Alisa Grishman and Emma Folts</div>
+      </div>
+    </div>
+
+    <!-- LEAD IMAGE -->
+    <div class="ui-full-width" id="lead-image">
+      <img src="assets/img/IMG_8141.JPG"
+      alt="Head-on photograph of the outside of the Andy Warhol Museum. In the windows are large blue and yellow prints of Andy Warhol’s cow prints. The entrance has both stairs and a ramp. In the foreground, someone skateboards down the sidewalk.">
+      <div id="lead-caption">
+        The Andy Warhol Museum. (Photo by Jay Manning/PublicSource)
+      </div>
+    </div>
+
+    <%= t.include("partials/_story.html", {'story': archieml.winsAndFails}) %>
+
+    <!-- Contact form -->
+    <section role="contact form" style="margin-top: 2rem;">
+      <div class="inline">
+        <%= t.include("partials/_preFooter.html") %>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <%= t.include("partials/_footer.html") %>
+
+    <script src="app.js" async></script>
+    <%= t.include("partials/_analytics.html") %>
+    <%= t.include("partials/_userway.html") %>
+  </body>
+</html>

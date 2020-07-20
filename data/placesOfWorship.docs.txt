@@ -1,91 +1,176 @@
 [+sections]
 
-Hi all….… since co-editing is a new relationship I hope I’m not overstepping with the edit. Thanks in advance for your patience!! -Jennifer
-___
-The Am	                           ericans with Disabilities Act [ADA] was signed into law in 1990, guaranteeing Americans with disabilities legally protected access to employment, state and local government, public spaces, and telecommunications. It was a landmark piece of legislature for the United States, but it was not without exceptions. In particular, religious entities —including but not limited to churches, synagogues, mosques, religious schools and daycares— are exempt from the ADA. Their buildings are not required to meet accessibility codes, and there are exemptions in employment standards as well.
+<hr>
 
-The entire process is more complicated than just the exemption, though, and many local faith leaders work to make practices and gathering spaces welcoming for all congregants, regardless of ability- with varying degrees of success.
+<section aria-label="audio player">
+  <div style="margin-bottom: 1rem;"><b>Podcast episode 3:</b> Listen to this article's author discuss how local places of worship are approaching accessibility for people with disabilities.</div>
 
-Many houses of worship in the Pittsburgh area- churches, synagogues, mosques, and other religious gathering spaces- exist in buildings that predate the implementation of the ADA. This means that these spaces do not conform to the standards that apply to other public spaces for accessibility- ramps, elevators, handicapped bathrooms, and other features required in other public venues.
+  <iframe title="audio player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/15219701/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/3a59a9/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
-Bruce Pollock is an architect at <a href="https://www.rsscarch.com/">RSSC Architecture</a>, a Pittsburgh-based firm that specializes in renovating houses of worship. He explains that while these spaces are exempt from the ADA, they are not exempt from the <a href="https://www.access-board.gov/guidelines-and-standards/buildings-and-sites/about-the-ada-standards/background/adaag">ADA accessibility guidelines</a> [ADAAG] once they begin renovations. So while a 100-year old church might be completely inaccessible to someone in a wheelchair, once they decide to upgrade any part of the space, 20 percent of the renovation budget must go towards improving physical accessibility.
+</section>
 
-“They are allowed to pick and choose what satisfies that 20 percent, but they  have to keep working towards bringing the space up to code. Some get to a point where they’ve done everything but get an elevator in the building, but that would be 40 percent of their budget, so they will just install the shaft. Next time they renovate, maybe they will get the actual elevator- they have to keep incrementing towards full accessibility.”
+<a href="#transcript" aria-label="jump to audio transcript">
+  <div id="transcript-anchor"><h3>Jump to audio transcript</h3></div>
+</a>
 
-Pollock shares that about half of congregations are aware of the ADA exemption but still concerned with accessibility for their members, and the other half are surprised they are exempt from anything. “They generally want to be accommodating.”
+<hr>
 
-**************
+A coalition of religious leaders successfully lobbied 30 years ago for places of worship to be exempt from the Americans with Disabilities Act [ADA]. Many local faith leaders have since worked to make practices and spaces welcoming for congregants of all abilities, but challenges to accessibility remain.
 
-We talked to several local congregations about the areas they are trying to be accommodating in, and where they could improve.
+Despite the ADA’s effect on nearly all areas of public life, religious entities — including churches, synagogues, mosques, religious schools and daycares — are exempt from the ADA. Dozens of Catholic churches cited burdensome costs and religious freedom when lobbying for the exemption.
 
-<b><a href="https://www.icp-pgh.org/">Islamic Center of Pittsburgh</a></b>
+Three decades later, religious institutions remain exempt from meeting accessibility codes and certain employment standards. Despite the exemption, many congregations across the city are trying to be accessible with varying degrees of success.
 
-Alaa Shalaby is both a board member at the Islamic Center of Pittsburgh [ICP] and a parent of a 16-year old son with Down Syndrome who was raised attending ICP.
+PublicSource and Unabridged Press spoke with several local congregations about the accessibility measures they are trying to implement and the areas in which they could improve. The added complexity of the COVID-19 pandemic — which has forced many congregations online — has increased accessibility for some congregants. Though for many people with disabilities, particularly the poor and elderly, online services can be less accessible.
 
-“It is very different in the Muslim community. Kids with disabilities are visible and totally part of the congregation. There is  no attempt to screen or shield or overprotect. In the kinds of communities most of our members grew up in overseas,  they are  very family-oriented- almost tribal, you are just accepted.”
+{.subhed}
+Text: <a href="https://www.icp-pgh.org/" target="_blank" aria-label="Islamic Center of Pittsburgh (opens in a new tab)">Islamic Center of Pittsburgh</a>
+{}
 
-Fellow board member Elaine Linn echoes this sentiment. She notes that in Egypt, many imams are blind- this gives them a special skill in memorizing the holy books. What some might see as a disability is viewed as a strength.
+Alaa Shalaby’s son, a 16-year old with Down syndrome, grew up attending the Islamic Center of Pittsburgh [ICP]. Children within the Muslim community who have disabilities are visible and included in the congregation, said Shalaby, a board member at ICP.
 
-Rather than have a separate track for disabled congregants, their needs are woven into the fabric of the community. There are Braille texts in the library, for example. Shalaby wishes their center was more physically accessible, but finds the members do the best with what they have. “We do have a ramp that gets people into the top floor, and they can attend the prayers, but unfortunately we do have a social hall in the basement. We’ve looked into an elevator but  there is concern the building may not be good to retrofit.” This bothers him, but they are unsure of a solution. When someone in a wheelchair needs to go downstairs, “Several guys will shoulder the physical load of it, they can help, it’s not perfect but it's what we do.”
+“There is no attempt to screen or shield or overprotect,” Shalaby said. “In the kinds of communities most of our members grew up in overseas, they are very family-oriented, almost tribal, you are just accepted.”
 
-His own son enjoys the community, and has always, Shalaby feels, been wholly accepted. “People enjoy his presence.”
+Board member Elaine Linn echoed Shalaby’s sentiment. In Egypt, many imams — who lead prayer — are blind, a trait that gives them a special skill in memorizing the holy books, she said. ICP provides the Quran in Braille in its library.
 
-Along with all congregations across the region, ICP has been meeting virtually throughout  the COVID-19 pandemic. This has presented some challenges, as they work to adapt technology that they were not using before. Yet at the same time it has leveled the playing field as far as who has access to services and the Imam. Linn has enjoyed the benefits of this herself.
+{.inline-img}
+Img: assets/img/worship_2.jpg
+Alt: Head on photograph of Shalaby, an older man, with his arm around his sixteen year old son. They’re on the steps in front of the Islamic Center of Pittsburgh. Behind them are flowers and a brick building.
+Caption: Alaa Shalaby, a board member of the Islamic Center of Pittsburgh, and his son Ramy await afternoon prayers in front of the ICP's building in Oakland. (Photo by Heather Mull/PublicSource)
+{}
 
-“I can raise my hand with a question, and I am not in the back of the room. I have access to him. Women typically worship behind the men in person.”  In addition, congregants without cars or who struggle to get to the mosque have been able to tune in. “All of our famous scholars, during the pandemic, have made themselves accessible to dialogue and listen and engage.  That is a silver lining.
+The needs of congregants with disabilities are woven into the fabric of the ICP community, they said. Though Shalaby wishes the center was more physically accessible; the members do their best with what they have.
 
+“We do have a ramp that gets people into the top floor, and they can attend the prayers,” but the congregation’s social hall is in the basement, only accessible by steps. “We’ve looked into an elevator, but there is concern the building may not be good to retrofit,” Shalaby said. He’s unsure of a solution.
 
-<b><a href="https://www.facebook.com/pg/WelcomeHome724/about/?ref=page_internal">Homewood African Methodist Episcopal Zion Church</a></b>
+When someone who uses a wheelchair needs to go downstairs, several congregants will carry the individual down the steps, Shalaby said. The solution can be awkward, humiliating and even unsafe.
 
-Founded in 1871, the Homewood African Methodist Episcoptal Zion Church is one of the oldest congregations in Pittsburgh. Pastor Jonathan Counts and his wife are very concerned with accessibility, despite a century-old building with many limitations. They reserve space for congregants in wheelchairs near the front of the sanctuary, so that they feel included rather than relegated to the rear of the sanctuary.  While the church has one ramp, he wishes they could improve their accessibility more. “We need an elevator or a chair lift so disabled persons can enjoy the fullness of what our church offers. We also need another ramp as well. These projects will cost a lot of money but that is on our vision board to work towards. Another limitation is some people need to become more culturally aware as it relates to persons with disabilities.”
+Along with many congregations across the Pittsburgh region, ICP has been meeting virtually throughout the pandemic. The switch to online worship has presented challenges for the congregation as they adapt to technology they were not using before. But it has also leveled the playing field and provided equal access to services and the Imam.
 
-Despite limited funds, the church has committed to paying for Access transportation so that some of their disabled members can attend regularly.
+Linn has enjoyed the benefits of greater access herself. Women typically worship behind men at a mosque, but the remote services have allowed her greater visibility.
 
-The church has also been working to accommodate congregants with disabilities that are not physical. Several members have children with social and emotional disabilities. Counts, along with several parents, have created a sensory room so that all families can feel able to attend events. “They can have a safe space to play as well as work through their triggers,” is Counts’ hope.
+“I can raise my hand with a question, and I am not in the back of the room. I have access to (the Imam),” Linn said.
 
-Like ICP, the pandemic has changed things quickly. Counts has created a <a href="https://www.youtube.com/channel/UCbtVK4M4UjeTHdt1imBK2Dg">YouTube channe</a>l for the church, Zoom prayer meetings, and socially distant visits with congregants who are struggling. They are currently working on safety plans to resume in-person meetings, and hope to do so by the end of the summer, but have no firm plans yet.
+Congregants without cars and those who struggle to get to the mosque have also been able to tune in to the virtual services. Muslim scholars have participated in discussions amid the pandemic and have engaged with the congregants, Linn said. “That is a silver lining,” Linn said.
 
-<b><a href="https://lifeatvictory.com/">Victory Family Church</a></b>
+{.subhed}
+Text: <a href="https://www.facebook.com/pg/WelcomeHome724/about/?ref=page_internal" target="_blank" aria-label="Homewood African Methodist Episcopal Zion Church (opens in a new tab)">Homewood African Methodist Episcopal Zion Church</a>
+{}
 
-Victory Family Church in Cranberry Township has become somewhat of a destination for Christian families with disabilities seeking a place to worship. The megachurch, which bought land to build their church rather than converting an existing building, was subject to all ADAAG guidelines. The space is therefore fully physically accessible to current standards.
+Pastor Jonathon Counts and his wife are concerned with the accessibility of the Homewood African Methodist Episcopal Zion Church. Founded in 1871, the centuries-old building has many limitations.
 
-In addition, the church has a special needs ministry, called Endless Possibilities, that has become well-known across disability circles. Tanya Riggs, who heads up the program, has families travel from all over to attend- from up to an hour away, and even from Ohio.
+“We need an elevator or a chair lift so disabled persons can enjoy the fullness of what our church offers. We also need another ramp as well,” Counts said. “These projects will cost a lot of money, but that is on our vision board to work towards.”
 
-“We serve children with a wide range of physical, mental, and behavioral needs,” shares Riggs.  “I do not ever recall a time we have turned a child away. Prior to a child attending a service, we require the parent or caregiver to fill out an application with some general but specific questions about the child's diagnosis and how we can best minister to them.  Each parent or caregiver is also required to sign their child up for the service by Thursday evening so that I can ensure the room is properly staffed with volunteers.”
+Many houses of worship in the Pittsburgh area exist in buildings that predate the implementation of the ADA. The buildings already lacked the ramps, elevators, bathrooms and other features required in public venues following the act's passage.
 
-The church has a dedicated space for children that cannot be integrated into a typical Sunday school classroom, a “buddy program” or 1:1 aide program for children that can attend a classroom with supports, and a SuperMoms support group. They also strive to always have a volunteer with a medical background on hand for congregants with complex medical needs.
+{.pullquote}
+Text: While a 100-year-old church might be completely inaccessible to someone who uses a wheelchair, once the church decides to upgrade any part of the space, 20% of the renovation budget must go toward improving physical accessibility.
+{}
 
-While the church closed in early March due to the pandemic, SuperMoms continued to meet via Zoom to offer ongoing support. Victory resumed in-person services in late June.
+Religious entities that choose to undergo renovations are not exempt from the <a href="https://www.access-board.gov/guidelines-and-standards/buildings-and-sites/about-the-ada-standards/background/ada" target="_blank" aria-label="ADA's accessibility guidelines (opens in a new tab)">ADA’s accessibility guidelines</a> [ADAAG], or building code, said Bruce Pollock, an architect at <a href="https://www.rsscarch.com/" target="_blank" aria-label="RSCC Architecture (opens in a new tab)">RSSC Architecture</a>. The Pittsburgh-based firm specializes in renovating houses of worship.
 
-It is impossible to anticipate the needs of every family, and some expressed that the need to RSVP for a service is very difficult to do while also balancing their child’s ever-changing needs. One parents shared that, “With all of our kids’ needs, I do not have the mental capacity to plan that far ahead.”
+While a 100-year-old church might be completely inaccessible to someone who uses a wheelchair, once the church decides to upgrade any part of the space, 20% of the renovation budget must go toward improving physical accessibility.
 
-Still, Riggs hopes that they can continue to adapt to the changing needs of the community. “Endless Possibilities provides a safe and dedicated environment for the children to learn about God and experience His love for them while their parents attend the adult service.  For many of our families this is the first time that they have been able to attend church together.”
+Building owners have discretion in choosing what physical accessibility measures will make up 20% of the budget, according to Pollock. The owners must continue to work toward complying with the code, he said.
 
+“Some get to a point where they’ve done everything but get an elevator in the building, but that would be 40% of their budget, so they will just install the shaft,” Pollock shared. “Next time they renovate, maybe they will get the actual elevator.”
 
-<a href="https://princeofpeacepittsburgh.com/">St Mary the Mount</a>
+Despite limited funds, Homewood AME Zion Church has committed to paying for ACCESS, Allegheny County’s door-to-door paratransit service, to enable some of their members with disabilities to attend regularly. The Counts also reserve space near the front of the sanctuary for congregants who use wheelchairs to help them feel included rather than relegated to the rear of the sanctuary.
 
-Sitting atop Mount Washington since 1897, St. Mary the Mount is home to Pittsburgh’s Deaf Choir as well as the <a href="https://princeofpeacepittsburgh.com/deaf-council-of-diocese-of-pittsburgh">Deaf Council for the Diocese of Pittsburgh</a>.  It can be difficult for blind or deaf congregants to fully participate in worship, but Karen Shepherd, coordinator of the deaf ministry, works hard with her team to be inclusive.
+{.inline-img}
+Img: assets/img/worship_3.jpg
+Alt: Photograph of an older Black man in motorized wheelchair going up a ramp into the back of a church. A younger Black woman walks beside him, helping him inside.
+Caption: Philip Russell and caretaker Alisa Martin use the wheelchair ramp on the side of the building to enter Homewood AME Zion Church on March 1, 2020. (Photo by Kimberly Rowen/PublicSource)
+{}
 
-The congregation makes sure that every part of the service is accessible to their deaf participants. Shepherd outlines every step they’ve taken. “Our church has a signed mass every Sunday. The distinction is that our Deaf members are also ministers at mass. We have a Deaf Lector who stands alongside the hearing Lector and signs the scripture readings. We have Deaf Eucharistic Ministers who assist with Communion. We have a Deaf Response Leader who leads the prayers and responses of the congregation so that our Deaf members are participating in the mass. In addition, we have a Deaf Choir that signs the songs that are being sung by the cantor or choir.” Friar Michael Stumpf is the Chaplain for the Deaf at St. Mary the Mount.
+The church has been working to accommodate congregants with social and emotional disabilities. Counts, along with several parents, have created a sensory room so all families can attend events.
 
-COVID-19 has led to some changes in the way they can provide access. Their website provides links to interpreted services at other parishes that their members have found useful, but they just don’t have the technology on hand to do any type of online interpretation on a consistent basis. “The resources on our website...are only available for those members of our deaf community who have the technology resources at home to access them. Even those who have internet access and a device on which to view the videos, have not had the IT support of their children or grandchildren who advise them and help them navigate the world of streaming.”
+Counts hopes that children “can have a safe space to play as well as work through their triggers.”
 
-The church reopened the weekend of June 27-28, with ASL interpretation at those masses.
+Like ICP, the pandemic changed the church’s operations quickly. Counts has created a <a href="https://www.youtube.com/channel/UCbtVK4M4UjeTHdt1imBK2Dg" target="_blank" aria-label="YouTube channel (opens in a new tab)">YouTube channel</a> for the church, hosted Zoom prayer meetings and implemented socially distant visits with congregants. The church is working on safety plans to resume in-person meetings by the end of the summer, but is not yet sure whether that will be possible.
 
-<b>Robeson family (Butler- they are okay with photos of their family)</b>
+{.subhed}
+Text: <a href="https://lifeatvictory.com/" target="_blank" aria-label="Victory Family Church (opens in a new tab)">Victory Family Church</a>
+{}
 
-Even when houses of worship work to be accommodating, some individuals are still left out. Aimee and Steve Robeson of Butler attended a special needs program for their 10-year old son, Christian, for several years. Christian has multiple medical and cognitive disabilities, and the program provided an hour respite for his parents each week. As his needs have evolved though, it’s been more difficult to feel confident leaving him in a church setting.
+Victory Family Church in Cranberry Township has become a destination for Christian families with disabilities who are seeking a place to worship. The megachurch, which bought land to build the place of worship rather than converting an existing building, was subject to ADAAG guidelines. The space is physically accessible to current standards.
 
-“We haven’t honestly been to church in a year, between his changing needs and the pandemic. A lot of it too is finding a place where the WHOLE family fits in and that’s the hardest part.” Aimee is considering a switch to another local church that is smaller and will provide Christian with a 1:1 aide, as Sunday school classrooms can be just too stimulating for him. “But he just needs constant change like every half hour so his needs have definitely changed since we last attended a special needs ministry.”
+The church also has a special needs ministry called Endless Possibilities that has become well-known within disability circles. Tanya Riggs, who heads the program, has had families from Ohio and other places an hour away travel to attend the ministry’s services.
 
-The family thinks they have found a new place to worship as a family, which was suggested by a teacher at their son’s school who knows him and his needs well. They’ve begun to meet with a small group of parents in a Bible study, and have felt so encouraged. “ Even though the other kids are “normal”, they still interact with Christian and like being with him.” That sense of acceptance and friendship is what the family is craving- sometimes even over a highly formulated program.
+“I do not ever recall a time we have turned a child away,” Riggs said.
 
-Aimee also thinks that places of worship could work to focus more on adults with special needs. “I also think churches need to have a room for those adults with disabilities that cannot sit in a sanctuary.  Maybe a classroom where the service is live streamed and they can make all the noise or talk all they want.  That was voiced by a mother that I know who has a son in his 20's who cannot participate.” Aimee is aware that there is such a wide variety of disabilities and unique needs that it is impossible for congregations to anticipate all of them. Open lines of communication are key, as well as adaptability to changing needs.
+{.related}
+Img1: assets/img/voting_1.JPG
+alt1: Photograph of a row of ballot scanning machines.
+text1: Voters with disabilities are accustomed to obstacles. How will COVID-19 impact accessibility?
+url1:/voters-with-disabilities-are-accustomed-to-obstacles-how-will-covid-19-impact-accessibility
+img2: assets/img/jsjpick_crawl_org.jpg
+alt2: Black and white icon of two disability rights activists climbing the steps up capital hill.
+text2: How does accessibility in the Pittsburgh region compare to other areas?
+url2: /podcast-episode-one-how-does-accessibility-in-pittsburgh-compare-to-other-areas
+{}
 
+Before a child with disabilities attends a service at Victory Family Church, their parent or caregiver completes an application regarding how the church can best minister to the child's needs. Parents and guardians must sign up for the service about three days in advance to ensure enough volunteers are present on Sundays.
 
+Some families said the need to R.S.V.P. for the Endless Possibilities service is difficult to do.
 
+“With all of our kids’ needs, I do not have the mental capacity to plan that far ahead,” one parent said.
 
+Riggs said she hopes Victory can continue to adapt to the changing needs of the community.
 
-Thought- this came up just today, but not sure how you feel about including a parachurch ministry, <a href="https://pittsburghcapernaum.younglife.org/">Pittsburgh has this one</a>.
+Through the Endless Possibilities program, many families who have children with disabilities have been able to attend church together for the first time, Riggs said. The church has a dedicated space for children who cannot be integrated into a typical Sunday school classroom, as well as a one-on-one aide program for children who can attend a classroom with support. Victory also offers a SuperMoms support group and strives to have a volunteer with a medical background on hand for congregants with complex medical needs.
 
+{.subhed}
+text: <a href="https://princeofpeacepittsburgh.com/" target="_blank" aria-label="St Mary of the Mount (opens in a new tab)">St Mary of the Mount</a>
+{}
+
+Blind and deaf congregants may experience difficulties fully participating in worship. But Karen Shepherd, coordinator of St. Mary of the Mount’s deaf ministry, works with her team to be inclusive.
+
+Sitting atop Mount Washington, St. Mary of the Mount is home to Pittsburgh’s Deaf Choir and the <a href="https://princeofpeacepittsburgh.com/deaf-council-of-diocese-of-pittsburgh" target="_blank" aria-label="Deaf Council for the Diocese of Pittsburgh (opens in a new tab)">Deaf Council for the Diocese of Pittsburgh</a>. The church, founded in 1897, offers Mass every Sunday in American Sign Language [ASL] and has deaf congregants who serve as ministers at Mass, Shepherd said.
+
+“We have a Deaf Response Leader who leads the prayers and responses of the congregation so that our Deaf members are participating in the Mass,” Shepherd said. “In addition, we have a Deaf Choir that signs the songs that are being sung by the cantor or choir.”
+
+{.inline-img}
+Img: assets/img/worship_4.jpg
+Alt: Photograph of a woman standing outside a large brick church.
+Caption: Karen Shepherd, a retired school teacher, has been leading the deaf choir and attending services at St. Mary of the Mount for the past seven years. (Photo by Heather Mull/PublicSource)
+{}
+
+COVID-19 has changed the way St. Mary of the Mount provides access to worshippers. The church’s website offers links to interpreted services at other parishes that members have found useful, but it doesn’t have the technology on hand to do online interpretation consistently.
+
+“The resources on our website...are only available for those members of our deaf community who have the technology resources at home to access them,” Shepherd said. “Even those who have internet access and a device on which to view the videos have not had the IT support of their children or grandchildren who advise them and help them navigate the world of streaming.”
+
+The church has recently begun to load the sermon podcast to a voicemail so that people with landlines only can call in and listen. Yet the podcast doesn't help the deaf community. Transcriptions aren't available.
+
+{.subhed}
+text: ‘Where the whole family fits in’
+{}
+
+Even when houses of worship work to accomodate people with disabilities, some individuals are still left out.
+
+Aimee and Steve Robeson of Butler County attended a special needs program for their 10-year old son, Christian, for several years. Christian has multiple medical and cognitive disabilities, and the program provided an hour of respite for his parents each week.
+
+As his needs have evolved, it’s been more difficult for Aimee and Steve to feel confident leaving Christian in a church setting. Aimee is considering switching to a local church that is smaller and will provide Christian with a one-on-one aide. Sunday school classrooms can be too stimulating for him.
+
+The family thinks they have found a new place to worship together, a church that was suggested by a teacher at Christian’s school who knows him and his needs well. They’ve also begun to meet with a small group of parents for Bible study and have felt encouraged.
+
+{.pullquote}
+Text: Congregations may not be able to accomodate all disabilities and unique needs, Aimee said. But open lines of communication and a willingness to adapt are key.
+{}
+
+“Even though the other kids are ‘normal,’ they still interact with Christian and like being with him,” Aimee said.
+
+That sense of acceptance and friendship for Christian is what the family is craving — sometimes even over a highly-formulated program.
+
+Congregations may not be able to accomodate all disabilities and unique needs, Aimee said. But open lines of communication and a willingness to adapt are key.
+
+“We haven’t honestly been to church in a year, between [Christian’s] changing needs and the pandemic,” Aimee said. “A lot of it, too, is finding a place where the <i>whole</i> family fits in, and that’s the hardest part.”
+
+<i>Meg St-Esprit is a freelance journalist based in Bellevue. She can be reached at</i> <i><a href="mailto:megstesprit@gmail.com" aria-label="megstespirit@gmail.com (opens email application)">megstesprit@gmail.com</a></i> <i>or on Twitter</i> <i><a href="https://twitter.com/megstesprit?lang=en" target="_blank" aria-label="@megstesprit (opens in a new tab)">@megstesprit</a></i><i>.</i>
+
+<hr>
+
+<b>A note from this story’s adviser:</b>
+Within the realm of the human spirit, we all strive for unconditional acceptance and belonging. It is when an apparent disability becomes a piece of that human that challenges appear and can present themselves as potential problems. A number of people have difficulties asking others for any kind of help or assistance. And, when we physically and emotionally can be present, where all potential barriers and challenges have been fully thought out and overcome beforehand, that is when we can successfully move forward in faith that we are all accessible, accepted and welcome without question and we do belong.
+—Brian Rutherford, accessibility advocate and audio description coordinator
 []

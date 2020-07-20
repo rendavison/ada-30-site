@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <%= t.include("partials/_analytics.html") %>
+    <!-- BEGIN TWITTER SUMMARY CARD -->
+   <meta name="twitter:card" content="summary_large_image">
+   <meta name="twitter:title" content="Faces of the law: The Americans with Disabilities Act read by those it protects | ADA at 30: Accessibility in Pittsburgh">
+   <meta name="twitter:site" content="@PublicSourcePA">
+   <meta name="twitter:url" content="https://adapittsburgh.com/faces-of-the-law-the-americans-with-disabilities-act-in-pittsburgh-read-by-those-it-protects">
+   <meta name="twitter:image" content="https://adapittsburgh.com/assets/img/video_thumbnail.jpg">
+   <meta name="twitter:description" content="Video of several Pittsburgh residents with disabilities reading the ADA, with accompanying story.">
+
+   <!-- Social sharing meta -->
+   <meta property="og:type" content="article">
+   <meta property="og:title" content="Faces of the law: The Americans with Disabilities Act read by those it protects">
+   <meta property="og:site_name" content="ADA at 30: Accessibility in Pittsburgh">
+   <meta property="og:url" content="https://adapittsburgh.com/faces-of-the-law-the-americans-with-disabilities-act-in-pittsburgh-read-by-those-it-protects">
+   <meta property="og:image" content="https://adapittsburgh.com/assets/img/video_thumbnail.jpg">
+   <meta property="og:description" content="Video of several Pittsburgh residents with disabilities reading the ADA, with accompanying story.">
+
+    <!-- imports all header info -->
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+    <title>Faces of the law: The Americans with Disabilities Act read by those it protects | ADA at 30: Accessibility in Pittsburgh</title>
+
+    <!-- imports main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <!-- imports global header -->
+    <%= t.include("partials/_main-nav.html") %>
+
+    <!-- STORY INFO -->
+    <section class="container" id="story-intro" style="overflow-x: hidden;">
+      <div class="row">
+        <div id="story-date">
+            July 13, 2020
+        </div>
+      </div>
+      <div class="row">
+        <div class="ten columns">
+          <h1 id="story-headline">Faces of the law: The Americans with Disabilities Act read by those it protects</h1>
+        </div>
+      </div>
+      <div class="row">
+          <div id="story-byline">Jennifer Szweda Jordan</div>
+      </div>
+    </section>
+
+    <!-- VIDEO -->
+    <a name="main-content" aria-hidden="true">
+      <section class="video-container" title="Introduction video" aria-label="Introduction video hosted on vimeo">
+        <div style="padding:52.71% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/435890220?texttrack=en&color=CD5B45&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen name="Introduction Video" title="Video: Faces of the law: The Americans with Disabilities Act read by those it protects"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+      </section>
+    </a>
+
+    <!-- TRANSCRIPT ANCHOR -->
+    <section id="transcript-anchor">
+      <a href="#video-transcript" aria-label="skip to video transcript">
+        <h3>Jump to video transcript</h3>
+      </a>
+    </section>
+
+    <%= t.include("partials/_story.html", {'story': archieml.readingTheADA}) %>
+
+    <a name="video-transcript">
+      <center><h2 style="margin-bottom: 3rem;">
+        Transcript
+      </h2></center>
+    </a>
+    <%= t.include("partials/_story.html", {'story': archieml.heartOfTheLawCaptions}) %>
+
+    <!-- Contact form -->
+    <section role="contact form" style="margin-top: 2rem;">
+      <div class="inline">
+        <%= t.include("partials/_preFooter.html") %>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <%= t.include("partials/_footer.html") %>
+
+    <script src="app.js" async></script>
+    <%= t.include("partials/_analytics.html") %>
+    <%= t.include("partials/_userway.html") %>
+  </body>
+</html>

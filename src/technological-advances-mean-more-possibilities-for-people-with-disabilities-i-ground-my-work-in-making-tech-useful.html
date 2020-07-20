@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <%= t.include("partials/_analytics.html") %>
+    <!-- BEGIN TWITTER SUMMARY CARD -->
+   <meta name="twitter:card" content="summary_large_image">
+   <meta name="twitter:title" content="Technological advances mean more possibilities for people with disabilities. I ground my work in making tech useful. | ADA at 30: Accessibility in Pittsburgh">
+   <meta name="twitter:site" content="@PublicSourcePA">
+   <meta name="twitter:url" content="https://adapittsburgh.com/technological-advances-mean-more-possibilities-for-people-with-disabilities-i-ground-my-work-in-making-tech-useful">
+   <meta name="twitter:image" content="https://adapittsburgh.com/assets/img/eric_and_nick.jpg">
+   <meta name="twitter:description" content="Since the passing of the Americans with Disabilities Act 30 years ago, technology has made tremendous advances that have significantly improved the lives of people with disabilities. The smartphone, a flourishing internet and now even autonomous vehicles are part of mainstream conversation. Technologies like these help people with disabilities, like my brother, Nick, do things every day that many of us take for granted.">
+
+   <!-- Social sharing meta -->
+   <meta property="og:type" content="article">
+   <meta property="og:title" content="Technological advances mean more possibilities for people with disabilities. I ground my work in making tech useful.">
+   <meta property="og:site_name" content="ADA at 30: Accessibility in Pittsburgh">
+   <meta property="og:url" content="https://adapittsburgh.com/technological-advances-mean-more-possibilities-for-people-with-disabilities-i-ground-my-work-in-making-tech-useful">
+   <meta property="og:image" content="https://adapittsburgh.com/assets/img/eric_and_nick.jpg">
+   <meta property="og:description" content="Since the passing of the Americans with Disabilities Act 30 years ago, technology has made tremendous advances that have significantly improved the lives of people with disabilities. The smartphone, a flourishing internet and now even autonomous vehicles are part of mainstream conversation. Technologies like these help people with disabilities, like my brother, Nick, do things every day that many of us take for granted.">
+    <!-- imports all header info -->
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+    <title>Technological advances mean more possibilities for people with disabilities. I ground my work in making tech useful. | ADA at 30: Accessibility in Pittsburgh</title>
+
+  </head>
+
+  <body>
+    <!-- imports global header -->
+    <%= t.include("partials/_main-nav.html") %>
+
+    <!-- STORY INFO -->
+    <div class="container" id="story-intro" style="overflow-x: hidden;">
+      <div class="row">
+        <div id="story-date">
+            July 22, 2020
+        </div>
+      </div>
+      <div class="row">
+        <div class="ten columns">
+          <h1 id="story-headline">Technological advances mean more possibilities for people with disabilities. I ground my work in making tech useful.</h1>
+        </div>
+      </div>
+      <div class="row">
+          <div id="story-byline">First-person essay by Eric and Nick Sinagra</div>
+      </div>
+    </div>
+
+    <!-- LEAD IMAGE -->
+    <div class="ui-full-width" id="lead-image">
+      <img src="/assets/img/eric_and_nick.jpg"
+      alt="Photograph of brothers Nick and Eric Sinagra standing outside Nick's house. They're both smiling at the camera. Nick is sitting in a power wheelchair, and Eric is standing beside him.">
+      <div id="lead-caption">
+        Nick and Eric Sinagra (left to right) in front of Nick's home in Whitehall. (Photo by Jay Manning/PublicSource)
+      </div>
+    </div>
+
+    <%= t.include("partials/_story.html", {'story': archieml.ericAndNic}) %>
+
+    <!-- Contact form -->
+    <section role="contact form" style="margin-top: 2rem;">
+      <div class="inline">
+        <%= t.include("partials/_preFooter.html") %>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <%= t.include("partials/_footer.html") %>
+
+    <script src="app.js" async></script>
+    <%= t.include("partials/_analytics.html") %>
+    <%= t.include("partials/_userway.html") %>
+  </body>
+</html>

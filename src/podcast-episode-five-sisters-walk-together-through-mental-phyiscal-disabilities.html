@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <%= t.include("partials/_analytics.html") %>
+    <!-- BEGIN TWITTER SUMMARY CARD -->
+   <meta name="twitter:card" content="summary_large_image">
+   <meta name="twitter:title" content="Sisters walk together through mental, physical disabilities | ADA at 30: Accessibility in Pittsburgh">
+   <meta name="twitter:site" content="@PublicSourcePA">
+   <meta name="twitter:url" content="https://adapittsburgh.com/podcast-episode-five-sisters-walk-together-through-mental-phyiscal-disabilities">
+   <meta name="twitter:image" content="https://adapittsburgh.com/assets/img/sisters_3.JPG">
+   <meta name="twitter:description" content="A New York Fashion Week manicurist and salon owner finds herself with new professional challenges when she’s diagnosed with multiple sclerosis. Her sister has seen her own career and relationships derailed by bipolar disorder. The women walk together, and some days are better than others.">
+
+   <!-- Social sharing meta -->
+   <meta property="og:type" content="article">
+   <meta property="og:title" content="Sisters walk together through mental, physical disabilities">
+   <meta property="og:site_name" content="ADA at 30: Accessibility in Pittsburgh">
+   <meta property="og:url" content="https://adapittsburgh.com/podcast-episode-five-sisters-walk-together-through-mental-phyiscal-disabilities">
+   <meta property="og:image" content="https://adapittsburgh.com/assets/img/sisters_3.JPG">
+   <meta property="og:description" content="A New York Fashion Week manicurist and salon owner finds herself with new professional challenges when she’s diagnosed with multiple sclerosis. Her sister has seen her own career and relationships derailed by bipolar disorder. The women walk together, and some days are better than others.">
+
+    <!-- imports all header info -->
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+    <title>Sisters walk together through mental, physical disabilities | ADA at 30: Accessibility in Pittsburgh</title>
+
+    <!-- imports main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <!-- imports global header -->
+    <%= t.include("partials/_main-nav.html") %>
+
+    <!-- STORY INFO -->
+    <section class="container" id="story-intro" style="overflow-x: hidden;">
+      <div class="row">
+        <div id="story-date">
+            July 20, 2020
+        </div>
+      </div>
+      <a name="main-content" aria-hidden="true"></a>
+      <div class="row">
+        <div class="ten columns">
+          <h1 id="story-headline">Podcast episode 5: Sisters walk together through mental, physical disabilities</h1>
+        </div>
+      </div>
+      <!--  <div class="row">
+          <div id="story-byline">Josie, Unabridged Press</div>
+      </div>-->
+
+      <!-- PODCAST INFO -->
+      <section class="row" id="podcast-info">
+        <%= t.include("partials/_podcastFive.html") %>
+      </section>
+    </section>
+
+    <section>
+      <a name="transcript">
+        <center>
+          <h2 style="margin-bottom: 4rem;">Transcript</h2>
+        </center>
+      </a>
+    </section>
+
+    <%= t.include("partials/_story.html", {'story': archieml.sistersPodcast}) %>
+
+    <!-- Contact form -->
+    <section role="contact form" style="margin-top: 2rem;">
+      <div class="inline">
+        <%= t.include("partials/_preFooter.html") %>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <%= t.include("partials/_footer.html") %>
+
+    <script src="app.js" async></script>
+    <%= t.include("partials/_analytics.html") %>
+    <%= t.include("partials/_userway.html") %>
+  </body>
+</html>

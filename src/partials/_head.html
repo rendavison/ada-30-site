@@ -1,33 +1,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-
-<title><%= project.title %></title>
-
-<!-- Favicon -->
-<link rel="apple-touch-icon" sizes="180x180" href="" />
-<link rel="icon" sizes="96x96" href="https://www.publicsource.org/wp-content/uploads/2019/01/96x96.png" />
-<link rel="icon" sizes="32x32" href="https://www.publicsource.org/wp-content/uploads/2016/12/publicsource_favicon-06.png" />
-<link rel="icon" sizes="16x16" href="https://www.publicsource.org/wp-content/uploads/2019/01/16x16.png" />
-
-<!-- Fonts -->
-<link rel="stylesheet" href="https://use.typekit.net/kzy1kbs.css">
-<link rel="stylesheet" href="https://use.typekit.net/wyi3zef.css">
-
-<!-- Import Font Awesome -->
-<script src="https://kit.fontawesome.com/c1a5a513f9.js" crossorigin="anonymous"></script>
-
-<!-- Safari, you're the worst -->
-<meta name='format-detection' content='telephone=no'>
-
-<% if (!project.embedded) { %>
-
-<!-- BEGIN TWITTER SUMMARY CARD -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="<%= project.title %>">
-<meta name="twitter:site" content="@PublicSourcePA">
-<meta name="twitter:url" content="<%= project.url %>">
-<meta name="twitter:image" content="<%= project.image %>">
-<meta name="twitter:description" content="<%= project.description %>">
+<meta name="description" content="The Americans with Disabilities Act was signed into law 30 years ago. For this project we set out to learn: How has the ADA changed life for Pittsburghers with disabilities? And what progress is still needed today?">
 
 <!-- Social sharing meta -->
 <meta property="og:type" content="article">
@@ -38,9 +11,56 @@
 <meta property="og:description" content="<%= project.description %>">
 <meta property="fb:app_id" content=""/>
 
+<!-- Favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="../assets/img/favicon-new.png" />
+<link rel="icon" sizes="96x96" href="../assets/img/favicon-new.png" />
+<link rel="icon" sizes="32x32" href="../assets/img/favicon-new.png" />
+<link rel="icon" sizes="16x16" href="../assets/img/favicon-new.png" />
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Fonts -->
+<link rel="stylesheet" href="https://use.typekit.net/kzy1kbs.css">
+<link rel="stylesheet" href="https://use.typekit.net/wyi3zef.css">
+
+<!-- Import Font Awesome -->
+<script src="https://kit.fontawesome.com/c1a5a513f9.js" crossorigin="anonymous"></script>
+
+<!-- imports main stylesheet -->
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<!-- Safari, you're the worst -->
+<meta name='format-detection' content='telephone=no'>
+
+<% if (!project.embedded) { %>
+
+  <!-- BEGIN TWITTER SUMMARY CARD -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ADA at 30: Accessibility in Pittsburgh">
+  <meta name="twitter:site" content="@PublicSourcePA">
+  <meta name="twitter:url" content="https://adapittsburgh.com/">
+  <meta name="twitter:image" content="https://adapittsburgh.com/assets/img/video_thumbnail.jpg">
+  <meta name="twitter:description" content="The Americans with Disabilities Act was signed into law on July 26, 1990. For this anniversary project, we set out to learn: How has the ADA changed life for Pittsburghers with disabilities? And what progress still needs to be made 30 years later? Here’s what we found out.">
+
+  <!-- Social sharing meta -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="ADA at 30: Accessibility in Pittsburgh">
+  <meta property="og:site_name" content="ADA at 30: Accessibility in Pittsburgh">
+  <meta property="og:url" content="https://adapittsburgh.com/">
+  <meta property="og:image" content="https://adapittsburgh.com/assets/img/video_thumbnail.jpg">
+  <meta property="og:description" content="The Americans with Disabilities Act was signed into law on July 26, 1990. For this anniversary project, we set out to learn: How has the ADA changed life for Pittsburghers with disabilities? And what progress still needs to be made 30 years later? Here’s what we found out.">
+
 <%
 // if !project.embedded...
 }
 %>
 
 <%= t.include("partials/_analytics.html") %>
+
+<!-- STOPS TRANSITIONS FROM FIRING ON PAGE LOAD -->
+<script>
+  $(document).ready(function() {
+    $("body").removeClass("preload");
+  });
+</script>

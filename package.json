@@ -22,7 +22,6 @@
     "dot": "^1.1.2",
     "exorcist": "^1.0.1",
     "googleapis": "^45.0.0",
-    "grunt": "^1.0.4",
     "grunt-contrib-connect": "^2.0.0",
     "grunt-contrib-watch": "^1.0.0",
     "jquery": "^3.4.1",
@@ -48,5 +47,8 @@
       "./tasks/lib/browserify-less",
       "./tasks/lib/browserify-text"
     ]
+  },
+  "devDependencies": {
+    "grunt": "^1.1.0"
   }
 }

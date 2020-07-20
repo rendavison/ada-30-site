@@ -15,10 +15,10 @@
   "scripts": {
     "src/js/main.js": "build/app.js"
   },
-  "title": "",
-  "description": "",
-  "url": "",
-  "image": "assets/logo.png",
+  "title": "ADA at 30: Accessibility in Pittsburgh",
+  "description": "The Americans with Disabilities Act was signed into law on July 26, 1990. How has it changed life for Pittsburghers with disabilities? And what progress still needs to be made? Here’s what they have to say.",
+  "url": "adapittsburgh.com",
+  "image": "https://adapittsburgh.com/assets/img/video_thumbnail.jpg",
   "analytics": {
     "topicIDs": [],
     "primaryTopic": "",
@@ -29,9 +29,10 @@
     "1R6xEusHRJR7m57pXF1pjjRh54kroS84dQE3Tj_wvCb4"
   ],
   "docs": {
-    "voting": "1eRxjTWPoMQYwnIbnoUvFEdzB4JvTzNoSyiLznHdyf0E",
-    "digitalAge": "1Xk-YkRgssLd0hPpjoodDQL0B942EFrHIisaA3jba8R8"
-  },
+    "heartOfTheLawCaptions": "1Wk_fUT_FZsV-qZhB448NGKT_-xpIQiwQxnRQCoGermg",
+    "podcastWorship": "1wEcG_kmKhhAe8A7HQhjGZij_7T8knivOrrAP1PiOwoM",
+    "podcastFour": "1wKR5hTthBdoqRkD1TC22bTm6cDFXeGszT5QtqTJNFLU"
+},
   "embedded": true,
   "production": false
 }

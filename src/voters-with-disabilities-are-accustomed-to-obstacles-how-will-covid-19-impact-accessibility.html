@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <%= t.include("partials/_analytics.html") %>
+    <!-- imports all header info -->
+    <!-- BEGIN TWITTER SUMMARY CARD -->
+   <meta name="twitter:card" content="summary_large_image">
+   <meta name="twitter:title" content="Voters with disabilities are accustomed to obstacles. How will COVID-19 impact accessibility? | ADA at 30: Accessibility in Pittsburgh">
+   <meta name="twitter:site" content="@PublicSourcePA">
+   <meta name="twitter:url" content="https://adapittsburgh.com/voters-with-disabilities-are-accustomed-to-obstacles-how-will-covid-19-impact-accessibility">
+   <meta name="twitter:image" content="https://adapittsburgh.com/assets/img/voting_1.JPG">
+   <meta name="twitter:description" content="Story about how COVID-19 will impact voting accessibility for people with disabilities.">
+
+   <!-- Social sharing meta -->
+   <meta property="og:type" content="article">
+   <meta property="og:title" content="Voters with disabilities are accustomed to obstacles. How will COVID-19 impact accessibility?">
+   <meta property="og:site_name" content="ADA at 30: Accessibility in Pittsburgh">
+   <meta property="og:url" content="https://adapittsburgh.com/voters-with-disabilities-are-accustomed-to-obstacles-how-will-covid-19-impact-accessibility">
+   <meta property="og:image" content="https://adapittsburgh.com/assets/img/voting_1.JPG">
+   <meta property="og:description" content="Story about how COVID-19 will impact voting accessibility for people with disabilities.">
+
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+    <title>Voters with disabilities are accustomed to obstacles. How will COVID-19 impact accessibility? | ADA at 30: Accessibility in Pittsburgh</title>
+
+  </head>
+
+  <body>
+    <!-- imports global header -->
+    <%= t.include("partials/_main-nav.html") %>
+
+    <!-- STORY INFO -->
+    <div class="container" id="story-intro" style="overflow-x: hidden;">
+      <div class="row">
+        <div id="story-date">
+            July 13, 2020
+        </div>
+      </div>
+      <div class="row">
+        <div class="ten columns">
+          <h1 id="story-headline">
+            Voters with disabilities are accustomed to obstacles. How will COVID-19 impact accessibility?
+          </h1>
+        </div>
+      </div>
+      <div class="row">
+          <div id="story-byline">Matt Petras</div>
+      </div>
+    </div>
+
+    <!-- LEAD IMAGE -->
+    <div class="ui-full-width" id="lead-image">
+      <img src="/assets/img/voting_1.JPG" alt="Photograph of a row of ballot scanning machines."/>
+      <div id="lead-caption">
+          A ballot scanning machine used by Allegheny County to scan absentee ballots during the June 2, 2020 primary election. (Photo by Jay Manning/PublicSource)
+      </div>
+    </div>
+
+    <a name="main-content" aria-hidden="true">
+      <%= t.include("partials/_story.html", {'story': archieml.voting}) %>
+    </a>
+
+    <!-- Contact form -->
+    <section role="contact form" style="margin-top: 2rem;">
+      <div class="inline">
+        <%= t.include("partials/_preFooter.html") %>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <%= t.include("partials/_footer.html") %>
+
+    <script src="app.js" async></script>
+    <%= t.include("partials/_analytics.html") %>
+    <%= t.include("partials/_userway.html") %>
+  </body>
+</html>

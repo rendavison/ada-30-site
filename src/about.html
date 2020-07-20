@@ -1,11 +1,27 @@
 <!doctype html>
 <html lang="en-US">
   <head>
-    <!-- imports all header info -->
+    <%= t.include("partials/_analytics.html") %>
+    <!-- BEGIN TWITTER SUMMARY CARD -->
+     <meta name="twitter:card" content="summary_large_image">
+     <meta name="twitter:title" content="About | ADA at 30: Accessibility in Pittsburgh">
+     <meta name="twitter:site" content="@PublicSourcePA">
+     <meta name="twitter:url" content="https://adapittsburgh.com/about">
+     <meta name="twitter:image" content="https://adapittsburgh.com/assets/img/10.0-curbcut-la-sm.jpg">
+     <meta name="twitter:description" content="The Americans with Disabilities Act was signed into law on July 26, 1990. For this anniversary project, we set out to learn: How has the ADA changed life for Pittsburghers with disabilities? And what progress still needs to be made 30 years later? Here’s what we found out.">
+
+     <!-- Social sharing meta -->
+     <meta property="og:type" content="article">
+     <meta property="og:title" content="About">
+     <meta property="og:site_name" content="ADA at 30: Accessibility in Pittsburgh">
+     <meta property="og:url" content="https://adapittsburgh.com/about">
+     <meta property="og:image" content="https://adapittsburgh.com/assets/img/10.0-curbcut-la-sm.jpg">
+     <meta property="og:description" content="The Americans with Disabilities Act was signed into law on July 26, 1990. For this anniversary project, we set out to learn: How has the ADA changed life for Pittsburghers with disabilities? And what progress still needs to be made 30 years later? Here’s what we found out.">
+
+     <!-- imports all header info -->
     <%= t.include("partials/_head.html", grunt.data.json) %>
 
-    <!-- imports main stylesheet -->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>About | ADA at 30: Accessibility in Pittsburgh</title>
   </head>
 
   <body>
@@ -13,51 +29,59 @@
     <%= t.include("partials/_main-nav.html") %>
 
     <!-- START ABOUT CONTENT -->
-    <main class="container" id="about-page">
+    <main class="container" id="about-page"><a name="main-content" aria-hidden="true"></a>
       <div class="row">
         <div class="eight columns offset-by-two">
-          <h1>About the ADA</h1>
+          <h1>About this project</h1>
         </div>
-        <div class="six columns offset-by-three about-text">
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-          tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-          consequat.</p>
+        <section class="eight columns offset-by-two about-text">
+          <h4>The Americans with Disabilities Act is national recognition that access is a civil rights issue and that people with disabilities should be protected from discrimination in all areas of public life, including jobs, schools, transportation and all other places that are open to the general public.</h4>
 
-          <p>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-          ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+          <h4>President George H.W. Bush signed the ADA into law on July 26, 1990. Its purpose is to ensure that people with disabilities have the same rights and opportunities as everyone else.</h4>
 
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-          tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-          consequat.</p>
-        </div>
+          <h4>Thirty years later — as we are amid a civil rights movement attempting to again address persistent racism — we ask: Has the ADA worked for people with disabilities in Southwestern Pennsylvania? What work is left to be done?</h4>
 
-        <div class="eight columns offset-by-two">
-          <h1>Notes on Accessibility</h1>
-        </div>
-        <div class="six columns offset-by-three about-text">
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-          tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-          consequat.</p>
+          <img src="assets/img/10.0-curbcut-la-sm.jpg" alt="Black and white photograph of several disability activists in wheelchairs. They are holding signs that say I'd hammer out justice, curb cuts not fines, asking did not work, and rights not jail."/>
+          <p class="podcast-caption" style="margin-bottom: 2rem; font-size: 1.75rem;">Protesters demand curb cuts along Hollywood’s “Walk of Fame” in Los Angeles, calling it a “Walk of Shame,” on March 5, 1988. (Used by permission. © Tom Olin – Tom Olin Collection.)</p>
 
-          <p>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-          ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+          <p>Pittsburgh-based media organizations <a href="https://www.publicsource.org/" target="_blank" aria-label="publicsource (opens in a new tab)">PublicSource</a> and <a href="https://www.unabridgedpress.com/" target="_blank" aria-label="unabridged press (opens in a new tab)">Unabridged Press</a> have partnered to bring you the voices of people with disabilities through reported articles and first-person essays, podcasts and video.</p>
 
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-          tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-          consequat.</p>
-        </div>
+          <p>Each story was either written directly by a person with a disability or employed an adviser or producer with a disability to evaluate the final product for ableism and to ask questions and make suggestions based on their expertise and experiences.</p>
+
+          <p>We have also made efforts to make this website — <a href="adapittsburgh.com" aria-label="adapittsburgh.com">ADAPittsburgh.com</a> — accessible through researching the best online tools, running audits on the site’s accessibility and asking users with various disabilities to test with us. That’s not to say we’ve got website accessibility down pat, so we embedded a form on each page soliciting comments or concerns.</p>
+
+          <section class="pre-footer" style="margin-bottom: 3rem">
+            <%= t.include("partials/_preFooter.html") %>
+          </section>
+
+          <p>You can also email <a href="mailto:halle@publicsource.org" aria-label="halle@publicsource.org">halle@publicsource.org</a> directly with any feedback. We hope to take what we learn about accessibility measures for this project and apply it to our primary websites and future projects.</p>
+
+          <p>A final note: Often, work by and about the disability community is only shared within the community of people with disabilities and their families and advocates. It shouldn’t be that way. The Americans with Disabilities Act is one of the most sweeping pieces of social legislation this country has ever seen and the implications are widespread. Please share this project with your friends, family and others who may not otherwise see it. Thank you!</p>
+
+          <img src="assets/img/44.0-san-ant-sm.jpg" style="width: 49%;float:left;margin-bottom:1rem;" alt="Black and white photograph of several disability rights activists marching on a cobblestone sidewalk. In the foreground, an activist his using a cane and holding a large American flag. Where the fifty stars usually are, there's an outline of the accessibility symbol made of stars. The activist is holding a sign that says separate is never equal. In the background are several people in wheelchairs."/>
+          <img src="assets/img/45.2-atlanta-sm.jpg" style="width: 49%;margin-left:2%;margin-bottom:1rem;float:left;" alt="Black and white photograph of a crowd of disability rights activists. Many are in wheelchairs. In front, a Black man in a wheelchair is holding two signs. Both have drawings of wheelchairs on them. One says I have rights too! and the other says let me have my freedom."/>
+          <p style="font-size: 1.75rem;" class="podcast-caption">Left: A Centers for Independent Living director carries a sign that read "Separate is never equal' by The Alamo in San Antonio in 1985.</p>
+          <p style="font-size: 1.75rem;" class="podcast-caption">Right: Activist George Rogers marches down Martin Luther King Jr. Drive in Atlanta in 1990. The action called for Atlanta to implement community-based attendant services, which would allow people with disabilities to live at home instead of in nursing homes.  (Used by permission. © Tom Olin – Tom Olin Collection.)</p>
+
+
+
+          <div style="clear:both" aria-hidden="true"></div>
+
+          <h3>About Unabridged Press</h3>
+          <p>“The whole story from the whole person.” That’s the tagline of the Pittsburgh-based website Unabridged Press. It publishes podcasts, videos, editorials, and written news and feature reporting, primarily about disability issues. A majority of contributors are people with disabilities.</p>
+
+          <p>This inclusive disability coverage began when a woman with Down syndrome, Erin Gannon, voiced her dream to be on the radio. She’s since won two Press Club of Western Pennsylvania Golden Quill awards for her podcast interviews and now works in the marketing department of the nonprofit ACHIEVA.</p>
+
+          <p>Unabridged Press is a for-profit company with B-Corp principles: a triple bottom line of people, profit and planet. It’s published by longtime Pittsburgh broadcaster Jennifer Szweda Jordan (formerly of The Allegheny Front/90.5 FM WESA). Its collaboration with the Center for Media Innovation at Point Park University, called the All-Abilities Media Project, teaches digital journalism to people with disabilities. It’s a pipeline for careers at Unabridged Press and other workplaces.</p>
+
+          <h3>About PublicSource</h3>
+
+          <p>PublicSource inspires critical thinking and bold ideas through local journalism rooted in facts, diverse voices and pursuit of transparency. We tell stories for a better Pittsburgh.</p>
+
+          <p>PublicSource has been serving the community with mission-driven and impact-minded reporting since 2012.</p>
+
+          <p>We, at PublicSource, believe in rebuilding local journalism from the community up. And we trust that our readers know more than we do. We are committed to working together with readers to help them advance the causes that matter most to them whether it’s the environment, jobs, economy, education, healthcare or social justice.</p>
+        </section>
       </div>
     </main>
 
@@ -66,6 +90,6 @@
 
     <script src="app.js" async></script>
     <%= t.include("partials/_analytics.html") %>
-
+    <%= t.include("partials/_userway.html") %>
   </body>
 </html>

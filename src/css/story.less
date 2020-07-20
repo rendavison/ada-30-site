@@ -8,11 +8,34 @@
 }
 
 #subhead {
-  margin-top: 5rem;
+  margin-top: 2rem;
+  line-height: 1.25;
+  max-width: 65.3333333333%;
   @media @mobile-above {
     font-size: 3rem;
     margin-left: 5%;
     width: 90%;
+  }
+}
+
+#transcript-anchor {
+  background-color: @brand-blue;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 2rem;
+}
+
+#transcript-anchor h3 {
+  .mallory();
+  font-size: 2.5rem;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  padding: 1rem 0;
+  @media @mobile {
+    padding: 1rem;
+    font-size: 2rem;
   }
 }
 
@@ -31,21 +54,21 @@
   line-height: 1.25;
   margin: 3rem 0;
   text-align: left;
-  width: 56.6666666667%;
+  width: 65.3333333333%;
   padding: 0 2rem;
   @media @mobile-above {
     width: 90%;
-    font-size: 3.5rem;
-    padding: 2rem;
-    padding: 3.5rem 1rem;
+    font-size: 2.5rem;
+    padding: 2rem 0;
+    margin: 0;
   }
 }
 
 .story-pullquote {
   border-left: 1rem solid @highlight-blue;
-  margin-left: 43.3333333333%;
+  margin-left: 30%;
   @media @mobile-above {
-    margin: 5rem 0 5rem 5%;
+    margin: 3rem 0 3rem 5%;
     border-left: 0;
     border-top: .5rem solid @highlight-blue;
     border-bottom: .5rem solid @highlight-blue;
@@ -53,16 +76,49 @@
 }
 
 .story-interjection {
-  border-left: 1rem solid @highlight-yellow;
+  border-left: 1rem solid @highlight-blue;
   box-sizing: border-box;
   z-index: 99999;
   margin-right: 26%;
   margin-left: 8.66666666667%;
   @media @mobile-above {
-    margin: 5rem 0 5rem 5%;
+    margin: 3rem 0 3rem 5%;
     border-left: 0;
-    border-top: .5rem solid @highlight-yellow;
-    border-bottom: .5rem solid @highlight-yellow;
+    border-top: .5rem solid @highlight-blue;
+    border-bottom: .5rem solid @highlight-blue;
+  }
+}
+
+.related-stories {
+  width: 65%;
+  box-sizing: border-box;
+  margin: auto;
+  border-top: 1px solid @highlight-blue;
+  border-bottom: 1px solid @highlight-blue;
+  padding: 1.5rem;
+  margin-bottom: 3rem;
+  @media @mobile-above {
+    width: 90%;
+  }
+}
+
+.related-stories h4 {
+  font-size: 2.25rem;
+  @media @mobile-above {
+    font-size: 2rem;
+  }
+}
+
+.related-stories .related-icon {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  object-position: 0 0;
+  float: left;
+  margin-right: 1.5rem;
+  @media @mobile-above {
+    width: 60px;
+    height: 60px;
   }
 }
 
@@ -81,19 +137,135 @@
 }
 
 .inline-img {
-  width: 95%;
-  margin: 1rem 2.5%;
-  @media @mobile {
-    width: 100%;
-    margin: 0;
+  max-width: 65%;
+  box-sizing: border-box;
+  margin: 1rem 17.5%;
+  @media @mobile-above {
+    max-width: 95%;
+    margin: 0 2.5%;
   }
 }
 
+.vertical {
+  max-width: 30%;
+  box-sizing: border-box;
+  margin: 0 3rem 1rem 17.5%;
+  float:left;
+  @media @mobile-above {
+    max-width: 95%;
+    margin: 0 2.5%;
+  }
+}
+
+.speaker-v {
+  .futura();
+  font-size: 1.75rem;
+}
+
 .story-caption {
+  max-width: 60%;
+  margin: -0.5rem 20%;
+  font-size: 1.75rem;
+  @media @mobile-above {
+    max-width: 90%;
+    margin: 0 5%;
+    text-align: left;
+  }
+}
+
+.vertical-caption {
+  max-width: 95%;
   margin: -0.5rem 2.5%;
-  color: #777;
-  font-size: 1.5rem;
-  max-width: 80%;
+  font-size: 1.75rem;
+  @media @mobile-above {
+    max-width: 90%;
+    margin: 0 5%;
+    text-align: left;
+  }
+}
+
+.vertical-float {
+  width: 35%;
+  float: left;
+  margin-left: 0;
+  @media @mobile-above {
+    float:none;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+}
+
+.story-caption #center-me,
+.vertical #center-me {
+  text-align: center;
+  margin-top:-3rem;
+  @media @mobile {
+    text-align: left;
+  }
+}
+
+.transcript {
+  width: 65.3333333333%;
   margin: auto;
-  text-align: left;
+  @media @mobile-above {
+    width: 95%;
+  }
+}
+
+.transcript .speaker {
+  float: left;
+  font-size: 1.75rem;
+  width: 30%;
+  .futura();
+  text-transform: uppercase;
+  @media @mobile-above {
+    width: 95%;
+    float:none;
+    margin-left: 2.5%;
+  }
+}
+
+.transcript .transcript-text {
+  float: left;
+  margin-left: 1%;
+  width: 69%;
+  margin-bottom: 3rem;
+  @media @mobile-above {
+    width: 95%;
+    float:none;
+    margin-left: 2.5%;
+  }
+}
+
+#podcast {
+  background-color: transparent;
+}
+
+#podcast-info {
+  margin-top: 5rem;
+}
+
+#podcast-info img {
+  width: 95%;
+  margin-left: 2.5%;
+}
+
+#podcast-desc {
+  margin-left: 2rem;
+  @media @mobile {
+    margin-left: 2.5%;
+    margin-top: 2rem;
+    width: 95%;
+  }
+}
+
+#podcast-caption {
+  max-width: 95%;
+  font-size: 1.75rem;
+  margin-left: 2.5%;
+}
+
+.inline-video {
+  width: 100%;
 }
