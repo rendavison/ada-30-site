@@ -11,7 +11,7 @@
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
     "@nprapps/betty": "^1.0.9",
-    "async": "^2.0.0-rc.1",
+    "async": "^2.6.4",
     "aws-sdk": "^2.2.45",
     "babelify": "^10.0.0",
     "browser-pack-flat": "^3.0.5",
